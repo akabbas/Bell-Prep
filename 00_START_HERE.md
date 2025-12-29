@@ -39,13 +39,14 @@ Documentation navigation guide
 - Success checkpoints
 - **Use it:** Navigate all documentation
 
-### 5. **14_DAY_ACTION_GUIDE.md** 📅
-Day-by-day practical action plan
-- What to do each morning/evening
-- What to focus on each day
-- Success metrics for each day
-- Final readiness checklist
-- **Use it:** Your daily roadmap
+### 5. **PREPARATION_CHECKLIST.md** ✅
+Phase-based self-paced preparation checklist
+- 3 Phases | 10 Sections | 40+ Tasks
+- Flexible pacing (1-3 sections per day)
+- Clear checkboxes for progress tracking
+- Success criteria per section
+- Final readiness checklist (25 items)
+- **Use it:** Your self-paced roadmap
 
 ---
 
@@ -54,14 +55,14 @@ Day-by-day practical action plan
 ### Your First Step Today:
 1. Open `JOB_DESCRIPTION.md` - Read the actual job
 2. Open `QUICK_REFERENCE.md` - Get key facts
-3. Open `14_DAY_ACTION_GUIDE.md` - Start Day 1
+3. Open `PREPARATION_CHECKLIST.md` - Start Section 1.1
 
 ### Your Reference Library:
 - Need the job requirements? → `JOB_DESCRIPTION.md`
 - Need a preparation plan? → `PREPARATION_MAP.md`
 - Need quick facts? → `QUICK_REFERENCE.md`
 - Not sure where to go? → `INDEX.md`
-- Want today's tasks? → `14_DAY_ACTION_GUIDE.md`
+- Want your checklist? → `PREPARATION_CHECKLIST.md`
 
 ---
 
@@ -77,7 +78,7 @@ Bell Prep Project (Your Complete Preparation Toolkit)
 │  ├─ INDEX.md                    ← Navigation guide
 │  ├─ QUICK_REFERENCE.md          ← Key facts at a glance
 │  ├─ PREPARATION_MAP.md          ← Detailed prep plan
-│  └─ 14_DAY_ACTION_GUIDE.md       ← Daily tasks (TODAY START HERE)
+│  └─ PREPARATION_CHECKLIST.md     ← Phase-based checklist (START HERE)
 │
 ├─ SYSTEM UNDERSTANDING
 │  ├─ README.md                   ← System overview
@@ -135,8 +136,8 @@ Plan: Your approach
 
 ### Next 2 hours:
 ```
-Open: 14_DAY_ACTION_GUIDE.md
-Start: DAY 1 tasks
+Open: PREPARATION_CHECKLIST.md
+Start: Section 1.1 (Python Code Reading)
 Execute: Begin preparation
 ```
 
@@ -146,7 +147,7 @@ Execute: Begin preparation
 
 1. **Start with INDEX.md** - It tells you where to go
 2. **Use QUICK_REFERENCE.md** - Keep it nearby for quick facts
-3. **Follow 14_DAY_ACTION_GUIDE.md** - Do the daily tasks (not optional)
+3. **Follow PREPARATION_CHECKLIST.md** - Work through sections at your pace
 4. **Return to JOB_DESCRIPTION.md** - When you need to remember requirements
 5. **Study the code** - `procurement_automation.py` is your teacher
 
@@ -157,9 +158,9 @@ Execute: Begin preparation
 | Day | Document | Focus |
 |-----|----------|-------|
 | Day 1 | JOB_DESCRIPTION + QUICK_REFERENCE | Understand requirements |
-| Days 2-7 | 14_DAY_ACTION_GUIDE (Week 1) | Technical foundation |
-| Days 8-14 | 14_DAY_ACTION_GUIDE (Week 2) | Systems & depth |
-| Day 14 | QUICK_REFERENCE checklist | Final assessment |
+| Days 2-7 | PREPARATION_CHECKLIST (Phase 1) | Technical foundation |
+| Days 8-12 | PREPARATION_CHECKLIST (Phase 2) | Systems & compliance |
+| Days 13-14 | PREPARATION_CHECKLIST (Phase 3) | Integration & readiness |
 
 ---
 
@@ -170,13 +171,13 @@ Execute: Begin preparation
 - [ ] PREPARATION_MAP.md has detailed prep tasks
 - [ ] QUICK_REFERENCE.md has key facts
 - [ ] INDEX.md helps you navigate
-- [ ] 14_DAY_ACTION_GUIDE.md has day-by-day tasks
+- [ ] PREPARATION_CHECKLIST.md has phase-based tasks
 
 **Are you ready to start?**
 - [ ] I found INDEX.md and read it
 - [ ] I found JOB_DESCRIPTION.md and understand the job
 - [ ] I found QUICK_REFERENCE.md and reviewed it
-- [ ] I found 14_DAY_ACTION_GUIDE.md and I'm ready to start Day 1
+- [ ] I found PREPARATION_CHECKLIST.md and I'm ready to start Section 1.1
 - [ ] I know which file to read first
 
 ---
@@ -201,7 +202,7 @@ Check the file list:
 2. PREPARATION_MAP.md
 3. QUICK_REFERENCE.md
 4. INDEX.md
-5. 14_DAY_ACTION_GUIDE.md
+5. PREPARATION_CHECKLIST.md
 
 All should be in `/Users/ammrabbasher/Bell Prep/` directory.
 
@@ -209,9 +210,9 @@ All should be in `/Users/ammrabbasher/Bell Prep/` directory.
 
 ## 🚀 TIME TO START
 
-**Your 14-day countdown begins NOW.**
+**Your preparation begins NOW.**
 
-**Open 14_DAY_ACTION_GUIDE.md and go to DAY 1.**
+**Open PREPARATION_CHECKLIST.md and start with a section that interests you.**
 
 **See you January 12! 🎉**
 

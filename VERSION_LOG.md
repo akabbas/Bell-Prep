@@ -24,7 +24,7 @@
 - `JOB_DESCRIPTION.md` - Official job posting (formatted)
 - `PREPARATION_MAP.md` - Job → Practical tasks mapping
 - `QUICK_REFERENCE.md` - Key facts + readiness checklist
-- `14_DAY_ACTION_GUIDE.md` - Day-by-day preparation roadmap
+- `PREPARATION_CHECKLIST.md` - Phase-based flexible preparation roadmap
 - `INDEX.md` - Question-based navigation
 - `DOCUMENTATION_STRUCTURE.md` - Documentation overview
 
@@ -41,7 +41,7 @@
 - Preparation focus: 100% job-aligned
 
 **Use Case:** 
-Perfect for structured 14-day preparation to Day 1 at Bell Textron (January 12, 2026). Follow `14_DAY_ACTION_GUIDE.md` daily for step-by-step guidance.
+Perfect for flexible preparation to Day 1 at Bell Textron (January 12, 2026). Follow `PREPARATION_CHECKLIST.md` at your own pace through 10 sections.
 
 **Commit:** `4123f89` - v2.0.0
 
@@ -166,7 +166,7 @@ v1.0.0 (Dec 15)          v1.5.0 (Dec 25)           v2.0.0 (Dec 28) ⭐
 └─ QUICK_REFERENCE.md            Key facts + readiness
 
 📅 YOUR ROADMAP (Use for 14 days)
-├─ 14_DAY_ACTION_GUIDE.md         Day-by-day tasks
+├─ PREPARATION_CHECKLIST.md     Phase-based flexible tasks
 ├─ PREPARATION_MAP.md            Job → Practice mapping
 ├─ INDEX.md                       Find anything
 └─ DOCUMENTATION_STRUCTURE.md     This documentation
@@ -246,7 +246,7 @@ v1.0.0 (Dec 15)          v1.5.0 (Dec 25)           v2.0.0 (Dec 28) ⭐
 
 ### Recommended Version: **v2.0.0** ⭐
 **Use Case:** 14-day preparation for Bell Day 1 (January 12, 2026)  
-**How to Use:** Open `00_START_HERE.md` and follow `14_DAY_ACTION_GUIDE.md`
+**How to Use:** Open `00_START_HERE.md` and follow `PREPARATION_CHECKLIST.md`
 
 ---
 

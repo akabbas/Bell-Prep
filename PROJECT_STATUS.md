@@ -57,7 +57,7 @@ This is **not just a study project**. It's a **Day 1 simulation** for your Busin
 3. `QUICK_REFERENCE.md` (5 min) - Key facts checklist
 
 **Week 1-2: Daily Practice**
-4. `14_DAY_ACTION_GUIDE.md` (Follow daily for 14 days) - Your roadmap
+4. `PREPARATION_CHECKLIST.md` (Follow at your pace through 10 sections) - Your flexible roadmap
 
 **Reference as Needed**
 - `PREPARATION_MAP.md` - Maps requirements to tasks
@@ -113,7 +113,7 @@ This is **not just a study project**. It's a **Day 1 simulation** for your Busin
 | 00_START_HERE.md | Entry point | 5 min | First time |
 | JOB_DESCRIPTION.md | Official requirements | 10 min | Need job details |
 | QUICK_REFERENCE.md | Key facts + checklist | 5 min | Quick lookup |
-| 14_DAY_ACTION_GUIDE.md | Daily tasks | 20 min | Your daily roadmap |
+| PREPARATION_CHECKLIST.md | Phase-based | 20 min | Your flexible roadmap |
 | PREPARATION_MAP.md | Requirements → tasks | 15 min | Plan your prep |
 | INDEX.md | Navigation | 5 min | Finding documents |
 | VERSION_LOG.md | Project history | 15 min | Understand evolution |
@@ -232,7 +232,7 @@ January 12: Bell Day 1 🚀
 1. Open: `00_START_HERE.md`
 2. Read: `JOB_DESCRIPTION.md`
 3. Review: `QUICK_REFERENCE.md`
-4. Start: `14_DAY_ACTION_GUIDE.md` (whenever you're ready)
+4. Start: `PREPARATION_CHECKLIST.md` (whenever you're ready)
 
 **That's it. Everything else follows from there.**
 
@@ -256,7 +256,7 @@ This project is **not about memorizing** everything. It's about:
 - **"Where do I start?"** → `00_START_HERE.md`
 - **"What's my job?"** → `JOB_DESCRIPTION.md`
 - **"Quick facts?"** → `QUICK_REFERENCE.md`
-- **"What do I do today?"** → `14_DAY_ACTION_GUIDE.md`
+- **"What's my preparation checklist?"** → `PREPARATION_CHECKLIST.md`
 - **"How do I find things?"** → `INDEX.md`
 - **"What's the project history?"** → `VERSION_LOG.md`
 

@@ -48,7 +48,7 @@
 - **Use it:** Build your preparation plan
 - **Unique:** Bridges job description to actual practice
 
-**5. 📅 14_DAY_ACTION_GUIDE.md** (12 KB)
+**6. ✅ PREPARATION_CHECKLIST.md** (12 KB)
 - **Purpose:** Your daily roadmap
 - **What it is:** Day-by-day tasks, morning/main/evening structure
 - **Use it:** Follow daily for 14 days
@@ -152,7 +152,7 @@
 **Right Now:**
 1. Open `00_START_HERE.md` ← START HERE
 2. Open `JOB_DESCRIPTION.md` ← Know your job
-3. Open `14_DAY_ACTION_GUIDE.md` ← Start Day 1
+3. Open `PREPARATION_CHECKLIST.md` ← Start Section 1.1
 
 **That's it. Three files. You're ready to begin.**
 
