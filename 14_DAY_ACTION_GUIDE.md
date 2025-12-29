@@ -1,465 +1,662 @@
-# 14-DAY ACTION GUIDE: Your Countdown to Bell Textron
+# 🎯 BELL TEXTRON PREPARATION GUIDE: Phase-Based Checklist
 
-**Start Date:** Today (December 28, 2025)  
+**Your flexible, self-paced preparation for January 12, 2026**
+
+**Start Date:** December 28, 2025 (Today)  
 **Bell Start Date:** January 12, 2026  
-**Days Remaining:** 14 days  
-**Your Goal:** Be ready for success on Day 1
+**Days Available:** 14 days (flexible pacing)  
+**Structure:** 3 Phases | 10 Sections | 40+ Actionable Tasks  
 
 ---
 
-## 🎯 HOW TO USE THIS GUIDE
+## ℹ️ HOW TO USE THIS GUIDE
 
-Each day has:
-- **Morning (15 min):** What to focus on
-- **Main Work (90-120 min):** What to do (not study)
-- **Evening (15 min):** Review and reflect
+### Structure Overview
+- **3 Phases** - Major skill groups (Technical → Systems → Integration)
+- **10 Sections** - Focused topics within each phase
+- **40+ Tasks** - Specific actions you take
+- **Checkboxes** - Mark completion as you go
 
-**Do the work, not the studying. PRACTICE, don't just read.**
+### Your Flexibility
+✅ **Work at your own pace** - Some days 2 hours, some days 5 hours  
+✅ **Non-sequential** - Skip to what you need when you have time  
+✅ **Group or solo** - Do one section per day or multiple  
+✅ **Reorder** - Start with what interests you  
+✅ **Track progress** - See what's done vs. remaining  
 
----
+### Time Estimate Per Section
+- 2-3 hours per section (can vary)
+- Complete all 10 sections within 14 days
+- Flexible scheduling based on your availability
 
-## WEEK 1: TECHNICAL FOUNDATION
-
-### DAY 1 (Today - Dec 28)
-
-**Morning (15 min):**
-- [ ] Read `INDEX.md` (this will guide you)
-- [ ] Read `JOB_DESCRIPTION.md` (know the job)
-- [ ] Read `QUICK_REFERENCE.md` (key facts)
-- [ ] Decide: Which preparation path fits you best?
-
-**Main Work (90 min):**
-- [ ] Read `procurement_automation.py` lines 1-100 (setup and logging)
-- [ ] Read `README.md` lines 1-100 (system overview)
-- [ ] Open the code in your editor (understand structure)
-- [ ] Question: "What problem does this code solve?"
-
-**Evening (15 min):**
-- [ ] Did I understand the overall architecture?
-- [ ] Can I explain it to someone?
-- [ ] What's confusing? (Mark it)
-
-**Success:** You understand what the system does at a high level
+### Success Metric
+**By January 11:** All sections complete, you're ready for Day 1
 
 ---
 
-### DAY 2 (Dec 29)
+## 📊 YOUR PREPARATION ROADMAP AT A GLANCE
 
-**Morning (15 min):**
-- [ ] Review `QUICK_REFERENCE.md` - Top 8 Things You'll Do
-- [ ] Review yesterday's takeaways
-- [ ] Set focus: API integration patterns
+```
+PHASE 1: TECHNICAL FOUNDATION (Sections 1-4)
+├─ ⬜ 1.1: Python Code Reading (Hours: ___ of 3)
+├─ ⬜ 1.2: API Integration Patterns (Hours: ___ of 3)
+├─ ⬜ 1.3: Data Validation & Quality (Hours: ___ of 3)
+└─ ⬜ 1.4: Database Operations (Hours: ___ of 3)
 
-**Main Work (90 min):**
-- [ ] Read `procurement_automation.py` lines 100-250 (API client)
-- [ ] Find: All error handling code (what can go wrong?)
-- [ ] Find: All rate limiting code (how does it work?)
-- [ ] Question: "What happens if Ariba API is down?"
+PHASE 2: SYSTEMS & COMPLIANCE (Sections 5-8)
+├─ ⬜ 2.1: SAP/Ariba Systems Understanding (Hours: ___ of 2)
+├─ ⬜ 2.2: ITAR Compliance Deep Dive (Hours: ___ of 3)
+├─ ⬜ 2.3: Troubleshooting & Problem-Solving (Hours: ___ of 3)
+└─ ⬜ 2.4: Communication & Documentation (Hours: ___ of 2)
 
-**Evening (15 min):**
-- [ ] Could you explain API rate limiting?
-- [ ] Do you understand what happens on a 429 error?
-- [ ] Write down: 3 things that could go wrong with APIs
+PHASE 3: INTEGRATION & READINESS (Sections 9-10)
+├─ ⬜ 3.1: Real-World Scenarios (Hours: ___ of 4)
+└─ ⬜ 3.2: Final Assessment & Readiness (Hours: ___ of 2)
 
-**Success:** You understand API integration challenges
-
----
-
-### DAY 3 (Dec 30)
-
-**Morning (15 min):**
-- [ ] Review API concepts from yesterday
-- [ ] Plan: Data model and validation
-- [ ] Set focus: Understanding the data
-
-**Main Work (90 min):**
-- [ ] Read `procurement_automation.py` lines 250-400 (data models, validation)
-- [ ] Find: All validation functions (what gets validated?)
-- [ ] Find: DUNS number validation (why is this critical?)
-- [ ] Practice: Write your own DUNS validator
-
-**Evening (15 min):**
-- [ ] Could you explain DUNS validation to someone?
-- [ ] Do you understand why supplier name standardization matters?
-- [ ] Question: What data quality issues are critical?
-
-**Success:** You understand data validation patterns
+TOTAL ESTIMATED TIME: 28-32 hours (flexible across 14 days)
+```
 
 ---
 
-### DAY 4 (Dec 31)
-
-**Morning (15 min):**
-- [ ] Review validation from yesterday
-- [ ] Plan: Database operations
-- [ ] Set focus: Upsert logic and transactions
-
-**Main Work (90 min):**
-- [ ] Read `procurement_automation.py` lines 400-600 (database operations)
-- [ ] Find: Upsert logic (insert vs update?)
-- [ ] Find: Transaction management (what's ROLLBACK?)
-- [ ] Practice: Trace one supplier record through the entire pipeline
-
-**Evening (15 min):**
-- [ ] Could you explain upsert logic?
-- [ ] Do you understand database transactions?
-- [ ] Question: What happens if transaction fails?
-
-**Success:** You understand database patterns
+# PHASE 1: TECHNICAL FOUNDATION
+**Goal: Master core technical skills (Python, APIs, data, databases)**
 
 ---
 
-### DAY 5 (Jan 1)
+## ✅ SECTION 1.1: Python Code Reading & Understanding
 
-**Morning (15 min):**
-- [ ] Happy New Year! 🎉
-- [ ] Review database concepts from yesterday
-- [ ] Plan: Audit trails and compliance
-- [ ] Set focus: ITAR logging
+**Goal:** Read and understand complex Python code without comments  
+**Time:** 2-3 hours  
+**Resources:** `procurement_automation.py` (1,300 lines)
 
-**Main Work (90 min):**
-- [ ] Read `procurement_automation.py` lines 600-800 (audit trails, ITAR logging)
-- [ ] Find: All ITAR logging code (what gets logged?)
-- [ ] Find: Audit trail recording (why does this matter?)
-- [ ] Practice: Understand compliance requirements
+### Tasks:
+- [ ] **Task 1.1.1:** Read lines 1-100 (setup, logging, constants)
+  - What problem does the logging setup solve?
+  - Why are environment constants at the top?
+  
+- [ ] **Task 1.1.2:** Read lines 100-250 (API client class)
+  - Trace how API authentication works
+  - Find all error handling code
+  - Answer: What's a Bearer token?
 
-**Evening (15 min):**
-- [ ] Could you explain ITAR compliance?
-- [ ] Do you understand what gets logged and why?
-- [ ] Question: Why is ITAR access tracking critical?
+- [ ] **Task 1.1.3:** Read lines 250-400 (data models, validation)
+  - What fields does supplier data have?
+  - Why is DUNS validation 9 digits?
+  - What gets standardized in names?
 
-**Success:** You understand compliance and audit trails
+- [ ] **Task 1.1.4:** Read lines 400-600 (database operations)
+  - How does upsert (insert vs update) work?
+  - What's a transaction?
+  - What happens on ROLLBACK?
 
----
+- [ ] **Task 1.1.5:** Read lines 600-800 (main pipeline)
+  - Trace one supplier record end-to-end
+  - What happens if validation fails?
+  - Where do errors get caught?
 
-### DAY 6 (Jan 2)
+- [ ] **Task 1.1.6:** Read lines 800-1309 (execution, reporting, compliance)
+  - How is the audit trail recorded?
+  - What gets logged for ITAR compliance?
+  - How is the summary generated?
 
-**Morning (15 min):**
-- [ ] Review ITAR concepts from yesterday
-- [ ] Plan: SQL queries for supplier data
-- [ ] Set focus: Writing SQL
+- [ ] **Task 1.1.7:** Add comments to 3 functions
+  - Choose 3 functions you found confusing
+  - Add comments explaining what they do (not just syntax)
+  - Practice explaining code clearly
 
-**Main Work (90 min):**
-- [ ] Open `data/bell_procurement_dev.db` in SQLite
-- [ ] Write 5 queries to answer:
-  1. How many suppliers total?
-  2. How many are ITAR-compliant?
-  3. What's the highest risk score?
-  4. Which suppliers have no audit date?
-  5. What's the average on-time delivery rate?
+### Success Criteria:
+- [ ] Can you trace a supplier record through the entire system?
+- [ ] Could you explain the pipeline to someone?
+- [ ] Do you understand at least 80% of the code?
 
-**Evening (15 min):**
-- [ ] Did my queries work?
-- [ ] Could I write more complex queries?
-- [ ] Question: Can I answer any business question with SQL?
-
-**Success:** You can write SQL queries
-
----
-
-### DAY 7 (Jan 3)
-
-**Morning (15 min):**
-- [ ] Review Week 1: What did you learn?
-- [ ] Plan: Advanced scenarios
-- [ ] Set focus: Integration and troubleshooting
-
-**Main Work (90 min):**
-- [ ] Write 10 more SQL queries (harder ones):
-  - High-risk suppliers (risk score > 3 AND spend > $100k)
-  - Suppliers overdue for audit (last_audit_date > 90 days)
-  - Non-ITAR compliant with high spend
-  - Average performance score by risk level
-  - Etc.
-- [ ] Test each one locally
-
-**Evening (15 min):**
-- [ ] How many queries could you write without help?
-- [ ] Do you understand the data model?
-- [ ] Confidence level on SQL: 1-10?
-
-**Success:** You're becoming SQL fluent
-
-**WEEK 1 CHECKPOINT:**
-- [ ] Understand code architecture
-- [ ] Know API patterns and errors
-- [ ] Know data validation
-- [ ] Know database operations
-- [ ] Know ITAR compliance
-- [ ] Can write SQL queries
+**Completion Date:** ___________  
+**Notes:** ___________________________________________
 
 ---
 
-## WEEK 2: SYSTEMS & DEPTH
+## ✅ SECTION 1.2: API Integration Patterns & Error Handling
 
-### DAY 8 (Jan 4)
+**Goal:** Understand how APIs work, fail, and recover  
+**Time:** 2-3 hours  
+**Resources:** `procurement_automation.py` lines 100-250, README.md API section
 
-**Morning (15 min):**
-- [ ] Review Week 1 learning
-- [ ] Read `PREPARATION_MAP.md` (systems section)
-- [ ] Plan: SAP and Ariba
-- [ ] Set focus: Business systems understanding
+### Tasks:
+- [ ] **Task 1.2.1:** Learn API authentication basics
+  - What's a Bearer token?
+  - How does the code set authentication headers?
+  - Why is this important for Ariba?
 
-**Main Work (90 min):**
-- [ ] Watch: "SAP Basics" YouTube (15 min)
-- [ ] Watch: "Ariba Overview" YouTube (15 min)
-- [ ] Read: `README.md` Data Model section (15 min)
-- [ ] Document: Create a 1-page diagram of data flow
-  - Ariba API → Python → Database → SAP
+- [ ] **Task 1.2.2:** Understand rate limiting (429 responses)
+  - What is rate limiting?
+  - What happens when you exceed the limit?
+  - How does the code handle a 429 error?
+
+- [ ] **Task 1.2.3:** Study error types and handling
+  - Find: All try/except blocks in API code
+  - Classify: Transient errors (retry) vs permanent (fail)
+  - Answer: What's the difference between 503 and 401?
+
+- [ ] **Task 1.2.4:** Understand retry logic
+  - How many times does the code retry?
+  - What's exponential backoff?
+  - When should you stop retrying?
+
+- [ ] **Task 1.2.5:** Practice pagination
+  - How do you fetch 1000 records in 50-record chunks?
+  - What does "page" and "pageSize" mean?
+  - Write pseudocode for paginated API call
+
+- [ ] **Task 1.2.6:** Understand timeout handling
+  - What happens if API doesn't respond in 30 seconds?
+  - Why is timeout important?
+  - How would you handle a timeout?
+
+### Success Criteria:
+- [ ] Could you explain rate limiting to a teammate?
+- [ ] Do you understand transient vs permanent errors?
+- [ ] Could you handle a 429 response in code?
+
+**Completion Date:** ___________  
+**Notes:** ___________________________________________
+
+---
+
+## ✅ SECTION 1.3: Data Validation & Data Quality
+
+**Goal:** Identify and handle data quality issues  
+**Time:** 2-3 hours  
+**Resources:** `procurement_automation.py` lines 250-400, README.md Data Model section
+
+### Tasks:
+- [ ] **Task 1.3.1:** Understand DUNS number validation
+  - What is DUNS? (Data Universal Numbering System)
+  - Why must it be exactly 9 digits?
+  - Find the validation code and trace it
+
+- [ ] **Task 1.3.2:** Learn supplier name standardization
+  - Why standardize "Boeing Co." → "BOEING CO"?
+  - What are common variations?
+  - Write a standardization function (pseudocode)
+
+- [ ] **Task 1.3.3:** Validate numeric ranges
+  - Why validate percentages (0-100)?
+  - What happens with invalid values?
+  - Find all range validation in the code
+
+- [ ] **Task 1.3.4:** Understand ITAR/AS9100 flags
+  - What makes a supplier ITAR-compliant?
+  - What is AS9100 certification?
+  - Why does this matter for Bell?
+
+- [ ] **Task 1.3.5:** Handle missing data strategically
+  - What do you do if audit_date is missing?
+  - Is a default OK or is it risky?
+  - Find how the code handles missing values
+
+- [ ] **Task 1.3.6:** Practice identifying quality issues
+  - Generate 10 fake supplier records
+  - Intentionally add quality issues
+  - Write code to detect each issue
+
+### Success Criteria:
+- [ ] Could you validate DUNS in code?
+- [ ] Do you understand data quality implications?
+- [ ] Could you write a data quality report?
+
+**Completion Date:** ___________  
+**Notes:** ___________________________________________
+
+---
+
+## ✅ SECTION 1.4: Database Operations & Transactions
+
+**Goal:** Understand database upsert, transactions, and compliance logging  
+**Time:** 2-3 hours  
+**Resources:** `procurement_automation.py` lines 400-600, `data/bell_procurement_dev.db`
+
+### Tasks:
+- [ ] **Task 1.4.1:** Understand upsert logic (insert vs update)
+  - When do you INSERT a new supplier?
+  - When do you UPDATE an existing supplier?
+  - What's the unique key (DUNS)?
+
+- [ ] **Task 1.4.2:** Learn transaction management
+  - What's a transaction?
+  - What does BEGIN/COMMIT/ROLLBACK do?
+  - Why would you ROLLBACK?
+
+- [ ] **Task 1.4.3:** Understand audit trail logging
+  - What information gets logged?
+  - When is it logged?
+  - Why is this important for compliance?
+
+- [ ] **Task 1.4.4:** Study ITAR access logging
+  - What is logged for ITAR-controlled data?
+  - Who accessed what? When? Why?
+  - Find the ITAR access log table structure
+
+- [ ] **Task 1.4.5:** Practice SQL queries against the database
+  - Write a query to count all suppliers
+  - Write a query to find ITAR-compliant suppliers
+  - Write a query to find suppliers updated today
+
+- [ ] **Task 1.4.6:** Understand error recovery in transactions
+  - What happens if INSERT fails mid-transaction?
+  - How does the code handle constraint violations?
+  - What's a rollback strategy?
+
+### Success Criteria:
+- [ ] Could you write an upsert operation?
+- [ ] Do you understand transactions?
+- [ ] Can you write basic SQL queries?
+
+**Completion Date:** ___________  
+**Notes:** ___________________________________________
+
+---
+
+# PHASE 2: SYSTEMS & COMPLIANCE
+**Goal: Understand Bell's business systems and compliance requirements**
+
+---
+
+## ✅ SECTION 2.1: SAP & Ariba Systems Understanding
+
+**Goal:** Know what SAP and Ariba do and how data flows between them  
+**Time:** 2-3 hours  
+**Resources:** YouTube (SAP/Ariba basics), README.md, ENVIRONMENT_AT_BELL.md
+
+### Tasks:
+- [ ] **Task 2.1.1:** Learn what SAP does
+  - SAP = Enterprise Resource Planning (ERP)
+  - What data does SAP store?
+  - How does supplier master data fit in?
+
+- [ ] **Task 2.1.2:** Learn what Ariba does
+  - Ariba = Procurement and supplier management
+  - What performance metrics does Ariba track?
+  - How is spend data captured?
+
+- [ ] **Task 2.1.3:** Understand the integration flow
+  - Ariba API → Your Python Code → Database → SAP
+  - Draw the data flow (on paper or in doc)
   - What happens at each step?
 
-**Evening (15 min):**
-- [ ] Could you explain SAP/Ariba to someone?
-- [ ] Do you understand the data flow?
-- [ ] Question: Why does Bell use both systems?
+- [ ] **Task 2.1.4:** Know Bell's procurement workflow
+  - Supplier evaluation → Performance tracking → Spend analysis
+  - Where does your system fit?
+  - What decisions depend on this data?
 
-**Success:** You understand the business systems
+- [ ] **Task 2.1.5:** Understand supplier master data
+  - What is "master data"?
+  - Why must it be clean?
+  - What happens if duplicates exist?
+
+- [ ] **Task 2.1.6:** Learn about CLM/SNC systems (legacy)
+  - What are these old systems?
+  - Why is Bell transitioning to Ariba?
+  - What's a data migration strategy?
+
+### Success Criteria:
+- [ ] Could you explain SAP vs Ariba to a non-technical person?
+- [ ] Could you draw the data flow diagram?
+- [ ] Do you understand Bell's procurement process?
+
+**Completion Date:** ___________  
+**Notes:** ___________________________________________
 
 ---
 
-### DAY 9 (Jan 5)
+## ✅ SECTION 2.2: ITAR Compliance Deep Dive
 
-**Morning (15 min):**
-- [ ] Review SAP/Ariba from yesterday
-- [ ] Plan: ITAR compliance deep dive
-- [ ] Set focus: Compliance and risk
+**Goal: Understand export control regulations and implementation  
+**Time:** 2-3 hours  
+**Resources:** ENVIRONMENT_AT_BELL.md, JOB_DESCRIPTION.md, README.md (compliance section)
 
-**Main Work (90 min):**
-- [ ] Read `ENVIRONMENT_AT_BELL.md` ITAR section (20 min)
-- [ ] Read `QUICK_REFERENCE.md` Compliance section (10 min)
-- [ ] Document: Create "ITAR Compliance Guide"
+### Tasks:
+- [ ] **Task 2.2.1:** Understand ITAR (International Traffic in Arms Regulations)
   - What is ITAR?
-  - Why does Bell care?
-  - How do we track it?
-  - What are violations?
-  - How do we audit?
-- [ ] Practice: Write 5 SQL queries about ITAR compliance
+  - Why does it exist?
+  - What technology is controlled?
 
-**Evening (15 min):**
-- [ ] Could you explain ITAR to a new hire?
-- [ ] Do you take compliance seriously?
-- [ ] Question: What would you do if you found a violation?
+- [ ] **Task 2.2.2:** Learn ITAR implications for Bell
+  - Bell makes helicopters (defense)
+  - Supplier data about these programs = controlled
+  - What is restricted? (Country access, foreign employees, export)
 
-**Success:** You understand compliance deeply
+- [ ] **Task 2.2.3:** Know ITAR-controlled suppliers
+  - Which suppliers work on defense programs?
+  - How do you identify ITAR-controlled relationships?
+  - What spend threshold triggers ITAR requirements?
 
----
+- [ ] **Task 2.2.4:** Understand compliance violations
+  - What makes an action a violation?
+  - What are the penalties? (Legal consequences)
+  - Why does Bell take this seriously?
 
-### DAY 10 (Jan 6)
+- [ ] **Task 2.2.5:** Study ITAR tracking in your system
+  - What gets logged for ITAR access?
+  - How do you audit ITAR compliance?
+  - Find the ITAR access log in code
 
-**Morning (15 min):**
-- [ ] Review compliance from yesterday
-- [ ] Plan: Troubleshooting and problem-solving
-- [ ] Set focus: Debugging methodology
+- [ ] **Task 2.2.6:** Practice compliance scenarios
+  - Scenario: Foreign national needs supplier data. What do you do?
+  - Scenario: You're about to upload supplier data to cloud. Is it OK?
+  - Scenario: Audit shows unknown access to supplier data. Investigate.
 
-**Main Work (90 min):**
-- [ ] Intentionally break your code (5 different ways):
-  - Delete database connection
-  - Break API authentication
-  - Invalid data in sample file
-  - Bad SQL query
-  - Missing configuration
-- [ ] For each: Use logs to diagnose and fix
-- [ ] Time yourself: How long to find/fix each?
+### Success Criteria:
+- [ ] Do you take ITAR seriously?
+- [ ] Could you explain why ITAR matters?
+- [ ] Would you catch a compliance violation?
 
-**Evening (15 min):**
-- [ ] Did you use logs or guess?
-- [ ] Could you troubleshoot systematically?
-- [ ] Question: What's your debugging process?
-
-**Success:** You're a good troubleshooter
+**Completion Date:** ___________  
+**Notes:** ___________________________________________
 
 ---
 
-### DAY 11 (Jan 7)
+## ✅ SECTION 2.3: Troubleshooting & Problem-Solving
 
-**Morning (15 min):**
-- [ ] Review troubleshooting from yesterday
-- [ ] Plan: Documentation and communication
-- [ ] Set focus: Clear communication
+**Goal: Debug issues systematically using logs and reasoning  
+**Time:** 2-3 hours  
+**Resources:** `logs/bell_procurement_dev.log`, procurement_automation.py
 
-**Main Work (90 min):**
-- [ ] Write documentation (choose one topic):
-  - How to set up the system for dev
-  - How to run the import
-  - How to troubleshoot a failure
-  - How to read audit logs
-  - How to verify ITAR compliance
-- [ ] Make it clear enough that someone without code experience understands
-- [ ] Add diagrams/flowcharts
-- [ ] Get someone to read it: Do they understand?
+### Tasks:
+- [ ] **Task 2.3.1:** Learn to read log files
+  - Open: `logs/bell_procurement_dev.log`
+  - Find: Error messages
+  - Understand: Timestamp, level (INFO/ERROR/WARNING), message
 
-**Evening (15 min):**
-- [ ] Is your documentation clear?
-- [ ] Would a new hire understand it?
-- [ ] Question: How could you improve it?
+- [ ] **Task 2.3.2:** Develop debugging methodology
+  1. Reproduce the issue
+  2. Check logs (don't guess!)
+  3. Form hypothesis
+  4. Test hypothesis
+  5. Verify fix works
+  
+  - Write this on a card for your desk
 
-**Success:** You can communicate clearly
+- [ ] **Task 2.3.3:** Practice intentional failures
+  - Break the database connection (edit config)
+  - Run the system, watch it fail
+  - Use logs to diagnose
+  - Fix it
+  - Time yourself: _____ minutes to fix
 
----
+- [ ] **Task 2.3.4:** Practice API failure scenarios
+  - Simulate rate limit (429 error)
+  - Simulate timeout (API slow)
+  - Simulate authentication failure (401)
+  - For each: What does log say?
 
-### DAY 12 (Jan 8)
+- [ ] **Task 2.3.5:** Practice data quality issues
+  - Add invalid DUNS number
+  - Add out-of-range percentage
+  - Run system, identify failures
+  - Document what went wrong
 
-**Morning (15 min):**
-- [ ] Review documentation from yesterday
-- [ ] Plan: Data quality and analysis
-- [ ] Set focus: Practical data challenges
+- [ ] **Task 2.3.6:** Build troubleshooting checklist
+  - What do you check first?
+  - Second?
+  - Create your personal troubleshooting guide
 
-**Main Work (90 min):**
-- [ ] Generate sample supplier data (use `sample_data.py`)
-- [ ] Intentionally add data quality issues:
-  - Missing values
-  - Wrong formats
-  - Duplicates
-  - Invalid ranges
-  - Etc.
-- [ ] Write code to detect each issue
-- [ ] Create a "data quality report"
-- [ ] Practice: Explain findings to someone
+### Success Criteria:
+- [ ] Could you fix a broken import?
+- [ ] Do you know how to read logs?
+- [ ] Would you troubleshoot systematically (not randomly)?
 
-**Evening (15 min):**
-- [ ] Could you detect quality issues automatically?
-- [ ] Could you explain what's wrong?
-- [ ] Question: How would you fix it?
-
-**Success:** You understand data quality
-
----
-
-### DAY 13 (Jan 9)
-
-**Morning (15 min):**
-- [ ] Review data quality from yesterday
-- [ ] Plan: Comprehensive scenario
-- [ ] Set focus: End-to-end workflow
-
-**Main Work (90 min):**
-- [ ] Mock scenario: "It's Monday morning. Supplier import failed."
-  - Check the logs (30 min)
-  - Diagnose the problem
-  - Fix the code/data
-  - Generate a report
-  - Document what happened
-  - Explain to stakeholders (15 min)
-- [ ] Time yourself: How long end-to-end? (Target: under 2 hours)
-
-**Evening (15 min):**
-- [ ] Did you solve it systematically?
-- [ ] Could you explain what happened?
-- [ ] Question: What did you learn?
-
-**Success:** You can handle real scenarios
+**Completion Date:** ___________  
+**Notes:** ___________________________________________
 
 ---
 
-### DAY 14 (Jan 10)
+## ✅ SECTION 2.4: Communication & Documentation
 
-**Morning (30 min):**
-- [ ] Review everything you've learned
-- [ ] Read `QUICK_REFERENCE.md` final checklist
-- [ ] Assess your readiness
+**Goal: Explain technical concepts clearly to non-technical people  
+**Time:** 2 hours  
+**Resources:** Your knowledge from all previous sections
 
-**Main Work (120 min):**
-- [ ] Final scenario: Build an end-to-end solution
-  - Design: How would you automate a new process?
-  - Implement: Write code (or pseudocode)
-  - Validate: What could go wrong?
-  - Document: Clear enough for others?
-  - Communicate: Explain to stakeholders
+### Tasks:
+- [ ] **Task 2.4.1:** Write a one-paragraph explanation of your system
+  - For a non-technical manager
+  - No jargon, no acronyms
+  - What problem does it solve?
+  - How long did this take? _____ minutes
 
-**Evening (30 min):**
-- [ ] REFLECTION - Answer these honestly:
-  - Could you read unfamiliar Python code? Y/N
-  - Could you write SQL without help? Y/N
-  - Could you troubleshoot systematically? Y/N
-  - Do you understand ITAR? Y/N
-  - Could you explain SAP/Ariba? Y/N
-  - Could you communicate clearly? Y/N
-  - Are you ready for Bell? Y/N (Honest answer)
+- [ ] **Task 2.4.2:** Create a process flowchart
+  - Use boxes and arrows
+  - Show: Fetch → Clean → Validate → Load → Audit
+  - Include: Error handling points
+  - Paper or digital (draw.io)?
 
-**If 6/7 YES:** You're ready! 🚀  
-**If 4-5 YES:** Good foundation, keep learning on the job  
-**If <4 YES:** Focus on the NOs, don't worry yet
+- [ ] **Task 2.4.3:** Write a troubleshooting guide
+  - Problem: Import failed. Steps to diagnose.
+  - Problem: Missing supplier. Steps to find.
+  - Problem: ITAR compliance violation. Steps to investigate.
 
-**Success:** You're ready for Bell Textron
+- [ ] **Task 2.4.4:** Document a complex procedure
+  - Choose: Upsert logic, ITAR logging, or validation
+  - Write step-by-step explanation
+  - Include: Why each step exists
+  - Diagrams or examples?
 
----
+- [ ] **Task 2.4.5:** Practice explaining concepts verbally
+  - Record yourself (or write it out)
+  - Explain: ITAR compliance (2 min)
+  - Explain: Upsert logic (2 min)
+  - Explain: Rate limiting (2 min)
 
-## ✅ YOUR FINAL CHECKLIST (Jan 11)
+- [ ] **Task 2.4.6:** Create a "what I've learned" summary
+  - What surprised you?
+  - What's most important?
+  - What do you still have questions about?
 
-**Before Day 1 at Bell, verify:**
+### Success Criteria:
+- [ ] Could a new hire understand your documentation?
+- [ ] Could you explain ITAR to your manager?
+- [ ] Could you teach someone else?
 
-- [ ] I can read complex Python code (without comments)
-- [ ] I can write SQL queries (any business question)
-- [ ] I understand API integration (including failures)
-- [ ] I can troubleshoot using logs (not random guessing)
-- [ ] I understand ITAR compliance (take it seriously)
-- [ ] I understand SAP/Ariba (know data flow)
-- [ ] I can communicate clearly (explain to non-technical people)
-- [ ] I have confidence (1-10 scale: ___)
-
-**If ready:** Celebrate! 🎉  
-**If not ready:** That's OK, you've prepared well. Learn on the job.
-
----
-
-## 🎯 YOUR MINDSET FOR THE NEXT 2 WEEKS
-
-> "I don't need to know everything. I need to know how to LEARN everything."
->
-> "I don't need perfect code. I need code that SOLVES PROBLEMS."
->
-> "I don't need to memorize. I need to UNDERSTAND PATTERNS."
->
-> "I don't need to be an expert. I need to be RESPONSIBLE AND SERIOUS."
+**Completion Date:** ___________  
+**Notes:** ___________________________________________
 
 ---
 
-## 🚀 JANUARY 12: FIRST DAY AT BELL
-
-**What you'll do:**
-1. Get network access and credentials (IT)
-2. Meet your team (HR)
-3. Learn Bell's environment system (Manager)
-4. Ask: "What's the biggest problem we need to solve?" (Team)
-5. Listen more than you talk (Always)
-
-**What NOT to do:**
-- Don't pretend to know things you don't
-- Don't say "that's not my job"
-- Don't ignore compliance requirements
-- Don't make assumptions about data
-
-**What TO do:**
-- Ask good questions
-- Take notes
-- Show enthusiasm
-- Be willing to learn
-- Respect the process
+# PHASE 3: INTEGRATION & READINESS
+**Goal: Apply everything in real scenarios and confirm you're ready**
 
 ---
 
-## 📞 IF YOU GET STUCK
+## ✅ SECTION 3.1: Real-World Scenarios
 
-**Before asking for help, ask yourself:**
-1. Have I checked the logs?
-2. Have I searched for documentation?
-3. Have I tried something different?
-4. Do I understand what the error means?
+**Goal: Apply everything to realistic situations  
+**Time:** 3-4 hours  
+**Resources:** All previous sections, your problem-solving skills
 
-**If still stuck:** Ask your manager or teammate. They want to help.
+### Tasks:
+- [ ] **Task 3.1.1:** Scenario - "The Import Failed"
+  - **Setup:** You run the nightly import, it fails
+  - **Steps:**
+    - [ ] Check logs for error
+    - [ ] Diagnose root cause (API? Data? Database?)
+    - [ ] Fix the issue
+    - [ ] Verify fix works
+    - [ ] Generate report for manager
+  - **Time taken:** _____ minutes
+
+- [ ] **Task 3.1.2:** Scenario - "Data Quality Problem"
+  - **Setup:** 5 supplier records have invalid DUNS numbers
+  - **Steps:**
+    - [ ] Write a query to find them
+    - [ ] Understand why they're invalid
+    - [ ] Design a fix (reject? Auto-correct? Manual review?)
+    - [ ] Implement and test
+  - **Time taken:** _____ minutes
+
+- [ ] **Task 3.1.3:** Scenario - "ITAR Compliance Audit"
+  - **Setup:** Auditor asks: "Who accessed ITAR-controlled supplier data and when?"
+  - **Steps:**
+    - [ ] Query the ITAR access log
+    - [ ] Generate a report
+    - [ ] Identify unusual access patterns
+    - [ ] Write explanation of findings
+  - **Time taken:** _____ minutes
+
+- [ ] **Task 3.1.4:** Scenario - "Performance Degradation"
+  - **Setup:** Imports are taking 2x longer than usual
+  - **Steps:**
+    - [ ] Identify bottleneck (API rate limit? Database slow? Code issue?)
+    - [ ] Check logs for clues
+    - [ ] Propose fix
+    - [ ] Test it works
+  - **Time taken:** _____ minutes
+
+- [ ] **Task 3.1.5:** Scenario - "New Requirement"
+  - **Setup:** Manager asks: "Can we flag suppliers that haven't been audited in 6 months?"
+  - **Steps:**
+    - [ ] Design solution (query? New field? New report?)
+    - [ ] Write SQL or Python to implement
+    - [ ] Test with sample data
+    - [ ] Document the change
+  - **Time taken:** _____ minutes
+
+### Success Criteria:
+- [ ] Could you handle each scenario?
+- [ ] How long did each take? (target: under 30 min per scenario)
+- [ ] Did you use systematic approach (logs, hypothesis, test)?
+
+**Completion Date:** ___________  
+**Notes:** ___________________________________________
 
 ---
 
-## 💪 YOU'VE GOT THIS
+## ✅ SECTION 3.2: Final Assessment & Readiness
 
-You've spent 2 weeks preparing. Most new hires don't. You're ahead.
+**Goal: Confirm you're ready for Day 1 at Bell  
+**Time:** 2 hours  
+**Resources:** QUICK_REFERENCE.md, all previous sections
 
-Bell is lucky to have you. 🚀
+### Final Readiness Checklist:
+
+**Technical Skills:**
+- [ ] Can you read Python code and understand it?
+- [ ] Can you write SQL queries for any business question?
+- [ ] Do you understand API integration (success and failures)?
+- [ ] Do you understand database transactions?
+- [ ] Can you validate data and identify quality issues?
+
+**System Knowledge:**
+- [ ] Do you understand what SAP does?
+- [ ] Do you understand what Ariba does?
+- [ ] Could you explain data flow Ariba → Python → SAP?
+- [ ] Do you understand Bell's procurement process?
+- [ ] Could you explain why supplier data matters?
+
+**Compliance & Risk:**
+- [ ] Do you understand ITAR and why it matters?
+- [ ] Would you catch a compliance violation?
+- [ ] Do you take security seriously?
+- [ ] Would you audit access logs?
+- [ ] Could you explain ITAR to your manager?
+
+**Problem-Solving:**
+- [ ] Do you troubleshoot systematically (logs first, not guesses)?
+- [ ] Could you fix a broken import in under 30 minutes?
+- [ ] Could you handle unexpected scenarios?
+- [ ] Would you ask for help when needed?
+- [ ] Could you communicate issues clearly?
+
+**Communication:**
+- [ ] Could you explain technical concepts simply?
+- [ ] Could you write clear documentation?
+- [ ] Could you present findings to non-technical people?
+- [ ] Would you ask clarifying questions?
+- [ ] Could you teach someone else?
+
+### Readiness Score:
+
+**Count your checked boxes:**
+- Technical: ___/5
+- System Knowledge: ___/5
+- Compliance & Risk: ___/5
+- Problem-Solving: ___/5
+- Communication: ___/5
+
+**Total: ___/25**
+
+**Scoring:**
+- 24-25: 🚀 READY! Start Day 1 confident
+- 22-23: ✅ READY! Minor gaps won't hurt
+- 20-21: 🟡 MOSTLY READY - Review weak areas
+- <20: 🔴 NOT READY - Go back and practice
+
+### What's Next:
+
+- [ ] **If 24+:** You're ready! Celebrate! Take it easy Jan 11.
+- [ ] **If 22-23:** Review 1-2 weak areas, then you're ready.
+- [ ] **If 20-21:** Spend Jan 9-11 on weak areas, then ready.
+- [ ] **If <20:** Go back to relevant sections, keep practicing.
+
+### Final Reflection:
+
+**Answer these questions honestly:**
+
+1. **What was hardest to learn?**
+   _________________________________________________
+
+2. **What are you most confident about?**
+   _________________________________________________
+
+3. **What do you still have questions about?**
+   _________________________________________________
+
+4. **How will you use this on Day 1?**
+   _________________________________________________
+
+5. **Rate your confidence (1-10):** ___
+   - If <8: What would make you more confident?
 
 ---
 
-**Your countdown to aviation greatness begins now.**
+## 🎉 YOU'RE DONE!
 
-**See you January 12! ✈️**
+**Total Time Invested:** _____ hours  
+**All Sections Complete:** [ ] Yes  [ ] No (which ones remaining? _______)
 
+**You've prepared thoroughly. January 12, you'll walk in confident. 🚀**
+
+---
+
+## 📋 QUICK PROGRESS TRACKER
+
+Copy this to track as you complete sections:
+
+```
+PHASE 1: TECHNICAL FOUNDATION
+[ ] 1.1: Python Code Reading - Completed: _____
+[ ] 1.2: API Integration - Completed: _____
+[ ] 1.3: Data Validation - Completed: _____
+[ ] 1.4: Database Operations - Completed: _____
+
+PHASE 2: SYSTEMS & COMPLIANCE
+[ ] 2.1: SAP/Ariba Systems - Completed: _____
+[ ] 2.2: ITAR Compliance - Completed: _____
+[ ] 2.3: Troubleshooting - Completed: _____
+[ ] 2.4: Communication - Completed: _____
+
+PHASE 3: INTEGRATION & READINESS
+[ ] 3.1: Real Scenarios - Completed: _____
+[ ] 3.2: Final Assessment - Completed: _____
+
+OVERALL PROGRESS: ___/10 sections complete
+ESTIMATED TIME REMAINING: _____ hours
+DAYS UNTIL BELL: _____ days
+
+STATUS: 🟢 ON TRACK / 🟡 CATCHING UP / 🔴 BEHIND
+```
+
+---
+
+**Created:** December 28, 2025  
+**For:** Business Systems Analyst Role at Bell Textron  
+**Start Date:** January 12, 2026  
+**Designed For:** Flexible, self-paced learning with structure
 
