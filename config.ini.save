@@ -1,0 +1,43 @@
+^x
+#
+
+
+h
+ Configuration file for Bell Procurement Automation System
+# Supports dev/test/prod environments with ITAR compliance logging
+
+[DEFAULT]
+LOG_LEVEL = INFO
+API_TIMEOUT_SECONDS = 30
+
+[DEV]
+ENVIRONMENT = development
+DATABASE_URL = sqlite:///./data/bell_procurement_dev.db
+API_BASE_URL = http://localhost:8000/ariba-mock
+API_RATE_LIMIT_CALLS = 100
+API_RATE_LIMIT_PERIOD = 60
+ENABLE_ITAR_LOGGING = true
+LOG_FILE = logs/bell_procurement_dev.log
+AUDIT_ENABLED = true
+
+[TEST]
+ENVIRONMENT = testing
+DATABASE_URL = sqlite:///./data/bell_procurement_test.db
+API_BASE_URL = http://localhost:8000/ariba-mock
+API_RATE_LIMIT_CALLS = 50
+API_RATE_LIMIT_PERIOD = 60
+ENABLE_ITAR_LOGGING = true
+LOG_FILE = logs/bell_procurement_test.log
+AUDIT_ENABLED = true
+
+[PROD]
+ENVIRONMENT = production
+DATABASE_URL = mssql+pyodbc://user:password@server/bell_procurement?driver=ODBC+Driver+17+for+SQL+Server
+API_BASE_URL = https://api.ariba.com/v1
+API_RATE_LIMIT_CALLS = 500
+API_RATE_LIMIT_PERIOD = 60
+ENABLE_ITAR_LOGGING = true
+LOG_FILE = logs/bell_procurement_prod.log
+AUDIT_ENABLED = true
+REQUIRE_ITAR_VALIDATION = true
+
