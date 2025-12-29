@@ -1,4 +1,4 @@
-# 19-Day Coding Patterns Study Plan
+# 14-Day Coding Patterns Study Plan
 
 **Your countdown to Bell Textron. Complete this by January 12.**
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-- **Total Days:** 19 days until January 12
+- **Total Days:** 14 days until January 12
 - **Study Time:** 1-2 hours per day
 - **Goal:** Master 10 coding patterns
 - **Outcome:** Understand 80% of Bell's codebase
