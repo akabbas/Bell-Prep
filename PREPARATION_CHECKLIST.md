@@ -4,7 +4,7 @@
 
 **Start Date:** December 28, 2025 (Today)  
 **Bell Start Date:** January 12, 2026  
-**Days Available:** 14 days (flexible pacing)  
+**Days Available:** Flexible pacing (work at your own speed)
 **Structure:** 3 Phases | 10 Sections | 40+ Actionable Tasks  
 
 ---
@@ -18,7 +18,7 @@
 - **Checkboxes** - Mark completion as you go
 
 ### Your Flexibility
-✅ **Work at your own pace** - Some days 2 hours, some days 5 hours  
+✅ **Work at your own pace** - Flexible scheduling for each section  
 ✅ **Non-sequential** - Skip to what you need when you have time  
 ✅ **Group or solo** - Do one section per day or multiple  
 ✅ **Reorder** - Start with what interests you  
@@ -26,11 +26,11 @@
 
 ### Time Estimate Per Section
 - 2-3 hours per section (can vary)
-- Complete all 10 sections within 14 days
+- Complete all 10 sections at your own pace
 - Flexible scheduling based on your availability
 
 ### Success Metric
-**By January 11:** All sections complete, you're ready for Day 1
+**By completion:** All sections complete, you're ready for Bell
 
 ---
 
@@ -53,7 +53,7 @@ PHASE 3: INTEGRATION & READINESS (Sections 9-10)
 ├─ ⬜ 3.1: Real-World Scenarios (Hours: ___ of 4)
 └─ ⬜ 3.2: Final Assessment & Readiness (Hours: ___ of 2)
 
-TOTAL ESTIMATED TIME: 28-32 hours (flexible across 14 days)
+TOTAL ESTIMATED TIME: 28-32 hours (flexible pacing)
 ```
 
 ---
@@ -530,7 +530,7 @@ TOTAL ESTIMATED TIME: 28-32 hours (flexible across 14 days)
 
 ## ✅ SECTION 3.2: Final Assessment & Readiness
 
-**Goal: Confirm you're ready for Day 1 at Bell  
+**Goal: Confirm you're ready for Bell  
 **Time:** 2 hours  
 **Resources:** QUICK_REFERENCE.md, all previous sections
 
@@ -583,7 +583,7 @@ TOTAL ESTIMATED TIME: 28-32 hours (flexible across 14 days)
 **Total: ___/25**
 
 **Scoring:**
-- 24-25: 🚀 READY! Start Day 1 confident
+- 🚀 READY! Start confident when you join Bell
 - 22-23: ✅ READY! Minor gaps won't hurt
 - 20-21: 🟡 MOSTLY READY - Review weak areas
 - <20: 🔴 NOT READY - Go back and practice
@@ -608,7 +608,7 @@ TOTAL ESTIMATED TIME: 28-32 hours (flexible across 14 days)
 3. **What do you still have questions about?**
    _________________________________________________
 
-4. **How will you use this on Day 1?**
+4. **How will you use this when you start at Bell?**
    _________________________________________________
 
 5. **Rate your confidence (1-10):** ___
