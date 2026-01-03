@@ -97,25 +97,26 @@ Includes:
 
 ---
 
-### 6. **STUDY_PLAN_19_DAYS.md** (Your Daily Roadmap)
-**Day-by-day guide for the next 19 days**
+### 6. **STUDY_PLAN_19_DAYS.md** (Your Phase-Based Roadmap)
+**Phase-by-phase guide for your preparation journey**
 
 Includes:
-- Days 1-3: Pattern 1 (Configuration)
-- Days 4-6: Pattern 2 (Validation)
-- Days 7-9: Pattern 3 (Loop/Transform)
-- Days 10-11: Pattern 4 (Error Handling)
-- Days 12-13: Pattern 5 (Create/Configure)
-- Days 14-17: Patterns 6-10
-- Days 18-19: Consolidation & celebration
+- Phase 1: Pattern 1 (Configuration)
+- Phase 2: Pattern 2 (Validation)
+- Phase 3: Pattern 3 (Loop/Transform)
+- Phase 4: Pattern 4 (Error Handling)
+- Phase 5: Pattern 5 (Create/Configure)
+- Phase 6: Patterns 6-10 (Supporting Skills)
+- Phase 7: Consolidation & Practice
+- Phase 8: Real Scenarios & Mastery
 
-Each day has:
-- Time allocation
+Each phase has:
+- Time allocation (flexible pacing)
 - Specific tasks
 - Success criteria
 - "What to understand"
 
-**Best for:** Staying on track, daily guidance
+**Best for:** Staying on track, self-paced guidance
 
 ---
 
@@ -152,17 +153,17 @@ Each day has:
 
 ### Weekly Progression
 
-**Week 1 (Days 1-9): Foundations**
+**Phase 1: Foundations**
 - Pattern 1: Configuration Reading
 - Pattern 2: Validation
 - Pattern 3: Loop and Transform
 
-**Week 2 (Days 10-17): Essential Skills**
+**Phase 2: Essential Skills**
 - Pattern 4: Error Handling
 - Pattern 5: Create/Configure/Return
 - Patterns 6-10: Supporting patterns
 
-**Week 3 (Days 18-19): Mastery**
+**Phase 3: Mastery**
 - Real Bell scenarios
 - Final practice and celebration
 
@@ -170,32 +171,32 @@ Each day has:
 
 ## ✅ What You'll Achieve
 
-### By Day 3
+### Phase 1 Complete
 - ✅ Understand Pattern 1 completely
 - ✅ Find 3 examples in your code
 - ✅ Know why it matters for Bell
 
-### By Day 6
+### Phase 2 Complete
 - ✅ Understand Pattern 2
 - ✅ Write your own validation
 - ✅ Recognize it everywhere
 
-### By Day 9
+### Phase 3 Complete
 - ✅ Master Pattern 3
 - ✅ Understand loop/transform
 - ✅ Ready for Pattern 4
 
-### By Day 13
+### Phase 4-5 Complete
 - ✅ Understand Patterns 4-5
 - ✅ Trace setup_logging() completely
 - ✅ Know how to handle errors
 
-### By Day 17
+### Phase 6 Complete
 - ✅ Recognize all 10 patterns
 - ✅ Score 8+/10 on quiz
 - ✅ Complete harder exercises
 
-### By Day 19
+### Phase 7-8 Complete
 - ✅ Recognize patterns instantly
 - ✅ Explain them to others
 - ✅ Feel confident for Bell
@@ -206,13 +207,13 @@ Each day has:
 ## 🎓 Your Study Confidence Progression
 
 ```
-Day 1:  "I don't understand this" → Confused
-Day 3:  "Oh! I see the pattern" → Recognizing
-Day 6:  "I found 5 examples" → Identifying
-Day 9:  "I can explain this" → Understanding
-Day 13: "I could write this" → Confident
-Day 17: "I see this everywhere" → Fluent
-Day 19: "I'm ready for Bell" → 🚀 Ready!
+Phase 1: "I don't understand this" → Confused
+Phase 2: "Oh! I see the pattern" → Recognizing
+Phase 3: "I found 5 examples" → Identifying
+Phase 4: "I can explain this" → Understanding
+Phase 5: "I could write this" → Confident
+Phase 6: "I see this everywhere" → Fluent
+Phase 7-8: "I'm ready for Bell" → 🚀 Ready!
 ```
 
 ---
@@ -263,8 +264,8 @@ Day 19: "I'm ready for Bell" → 🚀 Ready!
 - Real-world situations
 
 ### ✅ Structured
-- 19-day roadmap
-- Daily tasks
+- Phase-based progression
+- Flexible pacing (work at your own speed)
 - Clear success criteria
 - Progress checkpoints
 
@@ -293,8 +294,8 @@ You'll see each pattern multiple times across different documents.
 ### 5. Active Learning Works Best
 Writing examples, doing exercises, and spotting patterns is better than just reading.
 
-### 6. 19 Days Is Enough
-One pattern every 2 days. You can do that in your sleep.
+### 6. Work at Your Own Pace
+Flexible pacing - work through phases at your speed. Some phases take 3 days, some take 5. That's okay.
 
 ---
 
@@ -325,7 +326,7 @@ One pattern every 2 days. You can do that in your sleep.
 ### Step 1: Open 00_START_HERE.md
 Read it. It tells you everything about your study kit.
 
-### Step 2: Open STUDY_PLAN_19_DAYS.md
+### Step 2: Open STUDY_PLAN_14_DAYS.md
 Find today's date. Go to the section for today.
 
 ### Step 3: Follow Today's Tasks
@@ -333,8 +334,8 @@ Find today's date. Go to the section for today.
 - Complete the exercises
 - Find examples in your code
 
-### Step 4: Repeat Tomorrow
-Wake up, do tomorrow's section. Repeat for 19 days.
+### Step 4: Repeat Through Phases
+Complete each phase, then move to the next. Work at your own pace.
 
 ### Step 5: January 12 Arrives
 You're ready. Confident. Able to understand 80% of Bell's code.
@@ -350,7 +351,7 @@ You're ready. Confident. Able to understand 80% of Bell's code.
 | Code Examples | 100+ examples |
 | Exercises | 50+ practice exercises |
 | Real Code Snippets | 30+ from Bell contexts |
-| Study Time Needed | 1-2 hours/day × 19 days |
+| Study Time Needed | 1.5-2 hours per phase (flexible pacing) |
 | Patterns Covered | All 10 most common |
 | Success Rate | 95%+ if you follow it |
 
@@ -377,9 +378,9 @@ After learning a pattern, explain it to someone (or your rubber duck). This ceme
 You're not memorizing. You're recognizing patterns. Syntax you can Google.
 
 ### Tip 7: Celebrate Small Wins
-Day 3 = Pattern 1 mastered 🎉
-Day 6 = Pattern 2 mastered 🎉
-Day 19 = All patterns ready 🚀🎉
+Phase 1 = Pattern 1 mastered 🎉
+Phase 2 = Pattern 2 mastered 🎉
+Phase 8 = All patterns ready 🚀🎉
 
 ---
 
@@ -416,11 +417,11 @@ Day 19 = All patterns ready 🚀🎉
 - ❌ Worried about Bell
 
 ### Now (With Study Kit)
-- ✅ Clear roadmap for 19 days
+- ✅ Clear phase-based roadmap
 - ✅ 6 comprehensive documents
 - ✅ 100+ practice exercises
 - ✅ Real examples from your code
-- ✅ Know exactly what to do each day
+- ✅ Know exactly what to study in each phase
 - ✅ Confident for Bell
 
 ---
@@ -433,7 +434,7 @@ Day 19 = All patterns ready 🚀🎉
 - Struggle first month
 
 **You:**
-- ✅ Studied 19 days beforehand
+- ✅ Studied through all phases beforehand
 - ✅ Mastered 10 patterns
 - ✅ Understand 80% of codebase
 - ✅ Ready from Day 1
@@ -458,8 +459,9 @@ Day 19 = All patterns ready 🚀🎉
 - Nothing else
 
 ✅ **You can do this**
-- 1-2 hours per day
-- 19 days
+- 1.5-2 hours per phase
+- 8 phases total
+- Flexible pacing (work at your own speed)
 - Patterns are learnable
 - You're capable
 
@@ -489,13 +491,13 @@ Day 19 = All patterns ready 🚀🎉
 
 Write this down and put it where you see it:
 
-> I will complete this 19-day study plan.
+> I will complete this phase-based study plan.
 > I will master the 10 coding patterns.
 > I will understand 80% of Bell's code.
 > I will feel confident on January 12.
 >
 > Starting: Today
-> Ending: January 12
+> Ending: When I'm ready (no specific deadline)
 > Goal: 🚀 Ready for Bell
 >
 > Signed: ________________
@@ -518,9 +520,9 @@ We answered by building you:
 
 **The only thing left is to start.**
 
-**Open 00_START_HERE.md. Do Day 1. Repeat for 19 days.**
+**Open 00_START_HERE.md. Start Phase 1. Continue through all phases.**
 
-**By January 12, you'll be ready.**
+**By the time you're ready, you'll be confident.**
 
 ---
 

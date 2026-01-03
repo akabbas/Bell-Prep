@@ -1,22 +1,22 @@
-# 19-Day Coding Patterns Study Plan
+# Phase-Based Coding Patterns Study Plan
 
-**Your countdown to Bell Textron. Complete this by January 12.**
+**Your flexible roadmap to Bell Textron. Complete at your own pace.**
 
 ---
 
 ## Overview
 
-- **Total Days:** 19 days until January 12
-- **Study Time:** 1.5-2 hours per day
+- **Total Phases:** 8 phases
+- **Study Time:** 1.5-2 hours per phase (flexible pacing)
 - **Goal:** Master 10 coding patterns with deep consolidation
 - **Outcome:** Understand 90% of Bell's codebase with confidence
-- **Flexibility:** Can condense to 14 days if needed
+- **Flexibility:** Work through phases at your own speed
 
 ---
 
-## Days 1-3: Pattern 1 (Configuration Reading)
+## Phase 1: Pattern 1 (Configuration Reading)
 
-### Day 1: Learn Pattern 1
+### Part A: Learn Configuration
 **Time:** 1.5 hours
 
 1. Read: CODING_PATTERNS_GUIDE.md → Pattern 1 section (20 min)
@@ -28,7 +28,7 @@
 
 ---
 
-### Day 2: Practice Pattern 1
+### Part B: Practice Configuration
 **Time:** 1.5 hours
 
 1. Write: Your own config.get() examples (25 min)
@@ -40,7 +40,7 @@
 
 ---
 
-### Day 3: Master Pattern 1
+### Part C: Master Configuration
 **Time:** 1 hour
 
 1. Quiz: Identify all config usages in the codebase (20 min)
@@ -51,9 +51,9 @@
 
 ---
 
-## Days 4-6: Pattern 2 (Validation)
+## Phase 2: Pattern 2 (Validation)
 
-### Day 4: Learn Pattern 2
+### Part A: Learn Validation
 **Time:** 1.5 hours
 
 1. Read: CODING_PATTERNS_GUIDE.md → Pattern 2 section (20 min)
@@ -65,7 +65,7 @@
 
 ---
 
-### Day 5: Practice Pattern 2
+### Part B: Practice Validation
 **Time:** 1.5 hours
 
 1. Find: 3 more validation patterns in code (25 min)
@@ -77,7 +77,7 @@
 
 ---
 
-### Day 6: Master Pattern 2
+### Part C: Master Validation
 **Time:** 1 hour
 
 1. Quiz: Identify validation patterns in code (20 min)
@@ -88,9 +88,9 @@
 
 ---
 
-## Days 7-9: Pattern 3 (Loop and Transform)
+## Phase 3: Pattern 3 (Loop and Transform)
 
-### Day 7: Learn Pattern 3
+### Part A: Learn Loops
 **Time:** 1.5 hours
 
 1. Read: CODING_PATTERNS_GUIDE.md → Pattern 3 section (20 min)
@@ -102,7 +102,7 @@
 
 ---
 
-### Day 8: Practice Pattern 3
+### Part B: Practice Loops
 **Time:** 1.5 hours
 
 1. Find: 2 more loop patterns in code (20 min)
@@ -114,7 +114,7 @@
 
 ---
 
-### Day 9: Master Pattern 3
+### Part C: Master Loops
 **Time:** 1 hour
 
 1. Quiz: Identify loop patterns and comprehensions (20 min)
@@ -125,9 +125,9 @@
 
 ---
 
-## Days 10-12: Pattern 4 (Error Handling)
+## Phase 4: Pattern 4 (Error Handling)
 
-### Day 10: Learn Pattern 4
+### Part A: Learn Error Handling
 **Time:** 1.5 hours
 
 1. Read: CODING_PATTERNS_GUIDE.md → Pattern 4 section (20 min)
@@ -139,7 +139,7 @@
 
 ---
 
-### Day 11: Practice Pattern 4
+### Part B: Practice Error Handling
 **Time:** 1.5 hours
 
 1. Find: 2 more error handling patterns (20 min)
@@ -151,7 +151,7 @@
 
 ---
 
-### Day 12: Master Pattern 4
+### Part C: Master Error Handling
 **Time:** 1 hour
 
 1. Quiz: Identify error handling scenarios (20 min)
@@ -162,9 +162,9 @@
 
 ---
 
-## Days 13-15: Pattern 5 (Create/Configure/Return)
+## Phase 5: Pattern 5 (Create/Configure/Return)
 
-### Day 13: Learn Pattern 5
+### Part A: Learn Setup Pattern
 **Time:** 1.5 hours
 
 1. Read: CODING_PATTERNS_GUIDE.md → Pattern 5 section (20 min)
@@ -176,7 +176,7 @@
 
 ---
 
-### Day 14: Practice Pattern 5
+### Part B: Practice Setup Pattern
 **Time:** 1.5 hours
 
 1. Find: Another setup function in code (20 min)
@@ -188,7 +188,7 @@
 
 ---
 
-### Day 15: Master Pattern 5
+### Part C: Master Setup Pattern
 **Time:** 1 hour
 
 1. Quiz: Identify setup patterns (20 min)
@@ -199,9 +199,9 @@
 
 ---
 
-## Days 16-17: Patterns 6-10 (Supporting Skills)
+## Phase 6: Patterns 6-10 (Supporting Skills)
 
-### Day 16: Learn Patterns 6-7
+### Part A: Learn Patterns 6-7
 **Time:** 1.5 hours
 
 **Pattern 6 (Conditionals):**
@@ -218,7 +218,7 @@
 
 ---
 
-### Day 17: Learn Patterns 8-10
+### Part B: Learn Patterns 8-10
 **Time:** 1.5 hours
 
 **Pattern 8 (String Formatting):**
@@ -237,9 +237,8 @@
 
 ---
 
-## Days 18-19: Final Consolidation
+## Phase 7: Pattern Recognition Practice
 
-### Day 18: Pattern Recognition Practice
 **Time:** 2 hours
 
 1. Complete: PATTERN_EXERCISES_REAL_CODE.md exercises (45 min)
@@ -250,9 +249,11 @@
 
 ---
 
-### Day 19: Real Scenarios + Ready!
+## Phase 8: Real Scenarios + Ready!
+
 **Time:** 2 hours
 
+### Part A: Real Bell Scenarios
 1. Complete: Real Bell scenarios from PATTERNS_PRACTICE_WORKBOOK.md (1 hour)
    - Reading configuration
    - Validating ITAR compliance
@@ -260,25 +261,27 @@
    - Handling errors
    - Setting up logging
 
-2. Final exercises from PATTERN_EXERCISES_REAL_CODE.md (30 min)
+### Part B: Final Exercises
+2. Do: Final exercises from PATTERN_EXERCISES_REAL_CODE.md (30 min)
    - Goal: Score 18+/20
 
+### Part C: Celebrate
 3. Celebrate: You're ready! 🎉 (30 min)
 
 **Success:**
 - Score 5/5 on scenarios? Y/N
 - Score 18+/20 on exercises? Y/N
-- Ready for Bell January 12? Y/N
+- Ready for Bell? Y/N
 
 ---
 
 ## Daily Study Routine
 
-### Each day, do this:
+### Each study session, do this:
 
-**Morning (15 min):**
-1. Review yesterday's pattern from PATTERNS_QUICK_REFERENCE.md
-2. Spot yesterday's pattern in procurement_automation.py
+**Opening (15 min):**
+1. Review previous phase from PATTERNS_QUICK_REFERENCE.md
+2. Spot previous phase's pattern in procurement_automation.py
 3. Mental preparation for today
 
 **Main Study (60-90 min):**
@@ -287,67 +290,66 @@
 3. Find: Examples in procurement_automation.py (15 min)
 4. Write: Your own simple example (15 min)
 
-**Evening (15 min):**
+**Closing (15 min):**
 1. Review what you learned
 2. Check: Did you understand?
-3. Prepare: What's tomorrow?
+3. Prepare: What's next?
 
 ---
 
-## Study Intensity (19-Day Schedule)
+## Phase Progression Overview
 
-| Day | Focus | Time | Goal |
-|-----|-------|------|------|
-| 1-3 | Pattern 1 | 4 hrs | Configuration ✓ |
-| 4-6 | Pattern 2 | 4 hrs | Validation ✓ |
-| 7-9 | Pattern 3 | 4 hrs | Loop/Transform ✓ |
-| 10-12 | Pattern 4 | 4 hrs | Error Handling ✓ |
-| 13-15 | Pattern 5 | 4 hrs | Create/Configure ✓ |
-| 16 | Patterns 6-7 | 1.5 hrs | Conditionals & Access ✓ |
-| 17 | Patterns 8-10 | 1.5 hrs | Formatting & Return ✓ |
-| 18 | Practice All | 2 hrs | Recognition ✓ |
-| 19 | Real Scenarios | 2 hrs | 🚀 READY |
+| Phase | Focus | Time | Goal |
+|-------|-------|------|------|
+| 1 | Pattern 1 | 4 hrs | Configuration ✓ |
+| 2 | Pattern 2 | 4 hrs | Validation ✓ |
+| 3 | Pattern 3 | 4 hrs | Loop/Transform ✓ |
+| 4 | Pattern 4 | 4 hrs | Error Handling ✓ |
+| 5 | Pattern 5 | 4 hrs | Create/Configure ✓ |
+| 6 | Patterns 6-10 | 3 hrs | Supporting Skills ✓ |
+| 7 | Practice All | 2 hrs | Recognition ✓ |
+| 8 | Real Scenarios | 2 hrs | 🚀 READY |
 
-**Total: 19 days × 1.5-2 hours = 28-38 hours (flexible)**
+**Total: 8 phases × 1.5-2 hours = 28-38 hours (flexible pacing)**
 
 ---
 
 ## Checkpoints (Track Your Progress)
 
-### By Day 3
+### After Phase 1
 - [ ] Understand Pattern 1
 - [ ] Find 3 config.get() calls in code
 - [ ] Know why configuration matters
 
-### By Day 6
+### After Phase 2
 - [ ] Understand Pattern 2
 - [ ] Write your own validation
 - [ ] Know why validation matters
 
-### By Day 9
+### After Phase 3
 - [ ] Understand Pattern 3
 - [ ] Master loops AND comprehensions
 - [ ] Know why transformation matters
 
-### By Day 12
+### After Phase 4
 - [ ] Understand Pattern 4
 - [ ] Find error handling examples
 - [ ] Know why error handling matters
 
-### By Day 15
+### After Phase 5
 - [ ] Understand Pattern 5
 - [ ] All Patterns 1-5 solid
 - [ ] Score 8+/10 on quiz
 
-### By Day 17
+### After Phase 6
 - [ ] Recognize all 10 patterns
 - [ ] Score 8+/10 on pattern quiz
 - [ ] Comfortable with all concepts
 
-### By Day 19
+### After Phase 8
 - [ ] Score 5/5 on scenarios
 - [ ] Score 18+/20 on exercises
-- [ ] 🚀 READY FOR BELL JAN 12
+- [ ] 🚀 READY FOR BELL
 
 ---
 
@@ -374,18 +376,18 @@
 
 ---
 
-## Optional Acceleration (If Starting Late)
+## Optional Acceleration
 
-**Can compress to 14 days:**
-- Skip Day 3 master sessions, consolidate on same day as Day 2
-- Combine Days 16-17 into single intensive day
-- Move Day 18 practice into Day 17 evening
+**Can work faster:**
+- Combine Parts A+B of earlier phases into single sessions
+- Speed through Part C master sessions
+- Move Phase 7 practice into Phase 6
 
-**Result:** Still covers all 10 patterns, slightly faster pace
+**Result:** Still covers all 10 patterns, faster pace through phases
 
 ---
 
-## Final Checklist Before January 12
+## Final Checklist Before Bell
 
 - [ ] I can recognize all 10 patterns
 - [ ] I understand what each does
@@ -405,14 +407,14 @@
 1. **Today:** Open CODING_PATTERNS_GUIDE.md
 2. **Today:** Read Pattern 1 section
 3. **Today:** Find 3 examples in your code
-4. **Tomorrow:** Start Day 2 tasks
-5. **In 19 days:** 🚀 Ready for Bell!
+4. **Next:** Start Phase 1, Part B
+5. **When ready:** 🚀 Ready for Bell!
 
 ---
 
 ## Success Stories
 
-**By the end of day 19, you'll be able to:**
+**By the time you complete Phase 8, you'll be able to:**
 
 ✅ Open any Bell code and understand 85-90% immediately  
 ✅ Recognize what's happening without comments  
@@ -421,18 +423,19 @@
 ✅ Debug code by understanding patterns  
 ✅ Learn new code 10x faster  
 
-**That's the power of pattern recognition over 19 days.**
+**That's the power of pattern recognition.**
 
 ---
 
 ## Celebrate These Wins
 
-- **Day 3:** "I understand configuration!"
-- **Day 6:** "I can write validation!"
-- **Day 9:** "I can transform lists!"
-- **Day 12:** "I understand error handling!"
-- **Day 15:** "I can set up complex systems!"
-- **Day 17:** "I recognize all 10 patterns!"
-- **Day 19:** "I'm ready for Bell!"
+- **Phase 1 Complete:** "I understand configuration!"
+- **Phase 2 Complete:** "I can write validation!"
+- **Phase 3 Complete:** "I can transform lists!"
+- **Phase 4 Complete:** "I understand error handling!"
+- **Phase 5 Complete:** "I can set up complex systems!"
+- **Phase 6 Complete:** "I recognize all 10 patterns!"
+- **Phase 7 Complete:** "I can practice effectively!"
+- **Phase 8 Complete:** "I'm ready for Bell!" 🚀
 
-**You got this.** 🚀
+**You got this.** 💪

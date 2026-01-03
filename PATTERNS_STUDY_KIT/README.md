@@ -8,10 +8,10 @@
 
 1. **Open:** `00_START_HERE.md`
 2. **Read:** First 10 minutes
-3. **Follow:** The plan for today
-4. **Repeat:** For 19 days
+3. **Follow:** The phase-based plan
+4. **Repeat:** Through all phases at your own pace
 
-**By January 12: Ready for Bell Textron** ✅
+**When ready: Confident for Bell Textron** ✅
 
 ---
 
@@ -59,9 +59,9 @@
 
 ## ⏱️ Time Commitment
 
-- **Per Day:** 1-2 hours
-- **Total Days:** 14 days (until January 12)
-- **Total Time:** 14-28 hours
+- **Per Phase:** 1.5-2 hours (flexible pacing)
+- **Total Phases:** 8 phases
+- **Total Time:** 28-38 hours (flexible)
 - **Payoff:** 6+ months of advantage
 
 ---
@@ -71,12 +71,12 @@
 ### The Right Order
 
 1. **TODAY:** `00_START_HERE.md` (10 min orientation)
-2. **TODAY:** `STUDY_PLAN_19_DAYS.md` (5 min find today)
-3. **DAY 1-14:** Follow daily plan:
+2. **TODAY:** `STUDY_PLAN_19_DAYS.md` (5 min understand phases)
+3. **PHASE 1-8:** Follow phase-based plan at your own pace:
    - Read pattern from `CODING_PATTERNS_GUIDE.md`
    - Do exercises from `PATTERNS_PRACTICE_WORKBOOK.md`
    - Find examples in your code
-4. **JAN 12:** Complete! Ready for Bell!
+4. **READY:** Complete when you're confident for Bell!
 
 ---
 
@@ -84,12 +84,12 @@
 
 | Milestone | When | Goal |
 |-----------|------|------|
-| Pattern 1 mastered | Day 3 | Recognize configuration reading |
-| Pattern 2 mastered | Day 6 | Write validation functions |
-| Pattern 3 mastered | Day 9 | Understand loops deeply |
-| Patterns 4-5 | Day 13 | Trace error handling & setup |
-| All 10 patterns | Day 17 | Score 8+/10 on quiz |
-| Ready for Bell | Day 19 | Score 18+/20 on exercises |
+| Pattern 1 mastered | Phase 1 | Recognize configuration reading |
+| Pattern 2 mastered | Phase 2 | Write validation functions |
+| Pattern 3 mastered | Phase 3 | Understand loops deeply |
+| Patterns 4-5 | Phase 4-5 | Trace error handling & setup |
+| All 10 patterns | Phase 6 | Score 8+/10 on quiz |
+| Ready for Bell | Phase 7-8 | Score 18+/20 on exercises |
 
 ---
 
@@ -172,7 +172,7 @@ And so on for 19 days
 |----------|-----------------|
 | What do I start with? | → `00_START_HERE.md` |
 | How do I navigate? | → `INDEX.md` |
-| What should I study today? | → `STUDY_PLAN_19_DAYS.md` |
+| What should I study today? | → `STUDY_PLAN_14_DAYS.md` |
 | Explain this pattern deeply | → `CODING_PATTERNS_GUIDE.md` |
 | Quick pattern lookup | → `PATTERNS_QUICK_REFERENCE.md` |
 | Let me practice | → `PATTERNS_PRACTICE_WORKBOOK.md` |

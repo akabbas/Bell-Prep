@@ -51,70 +51,79 @@ You now have a complete study package with 5 documents:
 
 ---
 
-### 5. **STUDY_PLAN_19_DAYS.md** (Your Daily Guide)
-- Day-by-day breakdown
-- 19-day countdown to Jan 12
+### 5. **STUDY_PLAN_19_DAYS.md** (Your Phase-Based Guide)
+- Phase-based breakdown
+- 8 phases with flexible pacing
 - Checkpoints
 - Troubleshooting
-- Daily routines
+- Study routines
 
-**When to use:** Your roadmap for the next 19 days
+**When to use:** Your roadmap (work through phases at your own pace)
 
 ---
 
 ## 🎯 How to Use This Package
 
-### Week 1: Foundations (Days 1-9)
+### Phase 1: Foundation (Pattern 1 - Configuration Reading)
 
-**Focus on Patterns 1, 2, 3**
-
-- **Monday (Day 1-3):** Pattern 1 - Configuration Reading
-  1. Read: CODING_PATTERNS_GUIDE.md section
-  2. Practice: PATTERNS_PRACTICE_WORKBOOK.md exercise
-  3. Reference: PATTERNS_QUICK_REFERENCE.md
-
-- **Tuesday (Day 4-6):** Pattern 2 - Validation
-  1. Read: CODING_PATTERNS_GUIDE.md section
-  2. Practice: PATTERNS_PRACTICE_WORKBOOK.md exercise
-  3. Reference: PATTERNS_QUICK_REFERENCE.md
-
-- **Wednesday (Day 7-9):** Pattern 3 - Loop and Transform
-  1. Read: CODING_PATTERNS_GUIDE.md section
-  2. Practice: PATTERNS_PRACTICE_WORKBOOK.md exercise
-  3. Challenge: PATTERN_EXERCISES_REAL_CODE.md examples
+1. Read: CODING_PATTERNS_GUIDE.md section
+2. Practice: PATTERNS_PRACTICE_WORKBOOK.md exercise
+3. Reference: PATTERNS_QUICK_REFERENCE.md
 
 ---
 
-### Week 2: Essential Skills (Days 10-17)
+### Phase 2: Foundation (Pattern 2 - Validation)
 
-**Focus on Patterns 4, 5, 6-10**
-
-- **Thursday (Day 10-11):** Patterns 4-5
-  1. Read: CODING_PATTERNS_GUIDE.md
-  2. Practice: PATTERNS_PRACTICE_WORKBOOK.md
-  3. Exercises: PATTERN_EXERCISES_REAL_CODE.md
-
-- **Friday (Day 12-17):** Patterns 6-10
-  1. Skim: CODING_PATTERNS_GUIDE.md (quick read)
-  2. Quiz: PATTERNS_PRACTICE_WORKBOOK.md recognition quiz
-  3. Challenge: PATTERN_EXERCISES_REAL_CODE.md harder examples
+1. Read: CODING_PATTERNS_GUIDE.md section
+2. Practice: PATTERNS_PRACTICE_WORKBOOK.md exercise
+3. Reference: PATTERNS_QUICK_REFERENCE.md
 
 ---
 
-### Week 3: Consolidation (Days 18-19)
+### Phase 3: Foundation (Pattern 3 - Loop and Transform)
 
-**Master recognition and application**
+1. Read: CODING_PATTERNS_GUIDE.md section
+2. Practice: PATTERNS_PRACTICE_WORKBOOK.md exercise
+3. Challenge: PATTERN_EXERCISES_REAL_CODE.md examples
 
-- **Saturday (Day 18):** Real Scenarios
-  1. Do: PATTERNS_PRACTICE_WORKBOOK.md "Real Bell Scenarios"
-  2. Score: ___/5
-  3. Goal: 5/5
+---
 
-- **Sunday (Day 19):** Final Review
-  1. Quiz: PATTERN_EXERCISES_REAL_CODE.md exercises
-  2. Score: ___/20+
-  3. Goal: 18+/20
-  4. Celebrate: You're ready!
+### Phase 4: Essential Skills (Pattern 4 - Error Handling)
+
+1. Read: CODING_PATTERNS_GUIDE.md
+2. Practice: PATTERNS_PRACTICE_WORKBOOK.md
+3. Exercises: PATTERN_EXERCISES_REAL_CODE.md
+
+---
+
+### Phase 5: Essential Skills (Pattern 5 - Create/Configure/Return)
+
+1. Read: CODING_PATTERNS_GUIDE.md
+2. Practice: PATTERNS_PRACTICE_WORKBOOK.md
+3. Exercises: PATTERN_EXERCISES_REAL_CODE.md
+
+---
+
+### Phase 6: Supporting Skills (Patterns 6-10)
+
+1. Skim: CODING_PATTERNS_GUIDE.md (quick read)
+2. Quiz: PATTERNS_PRACTICE_WORKBOOK.md recognition quiz
+3. Challenge: PATTERN_EXERCISES_REAL_CODE.md harder examples
+
+---
+
+### Phase 7-8: Mastery & Consolidation
+
+**Phase 7: Real Scenarios**
+1. Do: PATTERNS_PRACTICE_WORKBOOK.md "Real Bell Scenarios"
+2. Score: ___/5
+3. Goal: 5/5
+
+**Phase 8: Final Review**
+1. Quiz: PATTERN_EXERCISES_REAL_CODE.md exercises
+2. Score: ___/20+
+3. Goal: 18+/20
+4. Celebrate: You're ready!
 
 ---
 
