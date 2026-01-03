@@ -1,4 +1,45 @@
-# NEW DOCUMENTS ADDED - December 28, 2025
+# Bell Prep - Getting Ready for Bell Textron Day 1
+
+**Your complete preparation toolkit to start January 12, 2026 ready.**
+
+---
+
+## 🚀 QUICK START - Read These First
+
+| What You Need | File | Time | Priority |
+|---------------|------|------|----------|
+| **Learn the coding patterns** | `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` | 8-10 hrs | 🔴 #1 |
+| **Find any file quickly** | `FILE_NAVIGATOR.md` | 5 min | 🟠 #2 |
+| **Understand the actual job** | `JOB_DESCRIPTION.md` | 15 min | 🟡 #3 |
+| **Get key facts fast** | `QUICK_REFERENCE.md` | 2 min | 🟢 #4 |
+
+---
+
+## ⭐ NEW - Essential Navigation Files
+
+### 1. **FILE_NAVIGATOR.md** ← START HERE FOR ORIENTATION
+**Quick reference to find ANY file for ANY task**
+- "I'm lost - where do I start?" → answers here
+- "I need Pattern 1 info" → navigation to right sections
+- "I want to practice" → exercise file locations
+- Use cases and weekly navigation
+- File quick stats table
+
+**When to use:** When you want to find something specific
+
+---
+
+### 2. **README.md** - Updated with Bell Focus
+**Your project overview with priorities highlighted**
+- Most important files highlighted at the top
+- Priority table showing what to read first
+- 4 priority levels with clear next steps
+
+**When to use:** Overview and "what should I read first?"
+
+---
+
+## 📚 NEW DOCUMENTS ADDED - December 28, 2025
 
 **Your job description is now saved and integrated into your Bell Prep project!**
 
