@@ -192,7 +192,7 @@ Evening (15 min):
 
 ## 🎓 Your Learning Path
 
-### Phase 1: Understanding (Days 1-9)
+### Phase 1: Understanding
 
 **You will:**
 - ✅ Understand each pattern
@@ -209,7 +209,7 @@ Evening (15 min):
 
 ---
 
-### Phase 2: Application (Days 10-17)
+### Phase 2: Application
 
 **You will:**
 - ✅ Recognize all patterns instantly
@@ -221,7 +221,7 @@ Evening (15 min):
 
 ---
 
-### Phase 3: Mastery (Days 18-19)
+### Phase 3: Mastery
 
 **You will:**
 - ✅ Explain patterns to others
@@ -261,32 +261,32 @@ Evening (15 min):
 
 ## ✅ Checkpoints
 
-### By End of Day 3
+### After Phase 1
 - [ ] Understand Pattern 1
 - [ ] Find 3 examples in your code
 - [ ] Know why it matters
 
-### By End of Day 6
+### After Phase 2
 - [ ] Understand Pattern 2
 - [ ] Find 5 examples in your code
 - [ ] Write your own validation
 
-### By End of Day 9
+### After Phase 3
 - [ ] Understand Pattern 3
 - [ ] Find 3 examples in your code
 - [ ] Write comprehension examples
 
-### By End of Day 13
+### After Phase 4-5
 - [ ] Understand Patterns 4-5
 - [ ] Find examples of each
 - [ ] Trace setup_logging() completely
 
-### By End of Day 17
+### After Phase 6
 - [ ] Recognize all 10 patterns
 - [ ] Score 8+/10 on quiz
 - [ ] Complete harder exercises
 
-### By End of Day 19
+### After Phase 7-8
 - [ ] Recognize patterns instantly
 - [ ] Score 18+/20 on exercises
 - [ ] Feel confident for Bell
@@ -374,28 +374,49 @@ Use the checklists in PATTERNS_PRACTICE_WORKBOOK.md:
 
 ---
 
-## 🎯 Your 19-Day Roadmap
+## 🎯 Your 8-Phase Roadmap
 
 ```
-Week 1: Patterns 1, 2, 3 (Foundational)
-├─ Day 1-3: Pattern 1 ✅
-├─ Day 4-6: Pattern 2 ✅
-└─ Day 7-9: Pattern 3 ✅
+Phase 1: Pattern 1 (Configuration) ✅
+├─ Part A: Learn
+├─ Part B: Practice
+└─ Part C: Master
 
-Week 2: Patterns 4, 5, 6-10
-├─ Day 10-11: Pattern 4 ✅
-├─ Day 12-13: Pattern 5 ✅
-├─ Day 14-15: Patterns 6-7 ✅
-├─ Day 16-17: Patterns 8-10 ✅
+Phase 2: Pattern 2 (Validation) ✅
+├─ Part A: Learn
+├─ Part B: Practice
+└─ Part C: Master
 
-Week 3: Mastery & Consolidation
-├─ Day 18: Real Bell Scenarios ✅
-└─ Day 19: Final Review & Celebration 🎉
+Phase 3: Pattern 3 (Loop/Transform) ✅
+├─ Part A: Learn
+├─ Part B: Practice
+└─ Part C: Master
+
+Phase 4: Pattern 4 (Error Handling) ✅
+├─ Part A: Learn
+├─ Part B: Practice
+└─ Part C: Master
+
+Phase 5: Pattern 5 (Create/Configure) ✅
+├─ Part A: Learn
+├─ Part B: Practice
+└─ Part C: Master
+
+Phase 6: Patterns 6-10 (Supporting Skills) ✅
+├─ Part A: Patterns 6-7
+└─ Part B: Patterns 8-10
+
+Phase 7: Practice All ✅
+└─ Full pattern exercises
+
+Phase 8: Real Scenarios & Mastery 🎉
+├─ Real Bell scenarios
+└─ Final review & celebration
 ```
 
 ---
 
-## 🎓 What You'll Know by January 12
+## 🎓 What You'll Know When Ready
 
 ### Pattern Recognition
 - ✅ Spot patterns instantly in any code
@@ -413,16 +434,16 @@ Week 3: Mastery & Consolidation
 - ✅ Understand 80% of Bell's codebase
 - ✅ Recognize common procurement patterns
 - ✅ Feel confident in code reviews
-- ✅ Able to contribute from Day 1
+- ✅ Able to contribute from day one
 
 ---
 
 ## 🤔 Common Questions
 
 **Q: How long does this really take?**
-A: 1-2 hours per day, 19 days. But understanding matters more than speed. If you need 30 days, take 30 days.
+A: 1.5-2 hours per phase, flexible pacing. Understanding matters more than speed. Work at your own pace.
 
-**Q: What if I don't finish by Jan 12?**
+**Q: What if I don't finish all phases quickly?**
 A: Still go to Bell. They'll continue teaching. This just gives you a head start.
 
 **Q: Do I need to understand everything?**
@@ -466,7 +487,7 @@ A: Do exercises again without looking at answers. Help someone learn. Go deeper 
 
 **You've got:**
 - ✅ 5 comprehensive study documents
-- ✅ 19-day roadmap
+- ✅ 8-phase roadmap with flexible pacing
 - ✅ Real code examples
 - ✅ Practice exercises with answers
 - ✅ Everything you need
@@ -478,7 +499,7 @@ A: Do exercises again without looking at answers. Help someone learn. Go deeper 
 - ❌ Years of experience
 
 **You just need:**
-- ✅ 1-2 hours per day
+- ✅ 1.5-2 hours per phase (flexible)
 - ✅ These documents
 - ✅ Your code
 - ✅ Patience with yourself
@@ -490,8 +511,8 @@ A: Do exercises again without looking at answers. Help someone learn. Go deeper 
 ### Today (Right Now):
 
 1. Open STUDY_PLAN_19_DAYS.md
-2. Go to "Day 1" section
-3. Follow the tasks
+2. Go to "Phase 1" section
+3. Follow Part A tasks
 4. You're studying
 
 ### That's it. You've started.
@@ -505,11 +526,11 @@ A: Do exercises again without looking at answers. Help someone learn. Go deeper 
 > I will master these 10 coding patterns.
 > I will be ready for Bell Textron.
 > I will understand 80% of their codebase.
-> I will feel confident on my first day.
+> I will feel confident when I start.
 > I can do this.
 >
 > Signed: ________________
-> Date: January 12, 2026
+> Date: ________________
 
 ---
 
@@ -517,13 +538,13 @@ A: Do exercises again without looking at answers. Help someone learn. Go deeper 
 
 **Everything you need is in these 5 documents.**
 
-You don't need anything else. No fancy tools. No expensive courses. Just these documents, your code, and 1-2 hours per day.
+You don't need anything else. No fancy tools. No expensive courses. Just these documents, your code, and flexible time to work through the phases.
 
-**By January 12, you will:**
+**When you're ready for Bell, you will:**
 - Recognize all 10 patterns
 - Understand what each does
 - Know how to use them
-- Feel confident at Bell
+- Feel confident
 
 **That's all you need.**
 
