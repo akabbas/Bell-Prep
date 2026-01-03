@@ -1,116 +1,132 @@
-# Bell Prep - Start Here
+# Bell Prep - Your Complete Preparation Toolkit
 
-**Everything you need to prepare for your job. Nothing more.**
+**Everything you need to start January 12, 2026 as a Business Systems Analyst**
 
 ---
 
-## 🚀 Quick Start (Pick One)
+## 🚀 START HERE (This Is Your Entry Point)
 
-| Your Situation | Do This | Time |
+**Open this file first:**
+
+### `COMPLETE_BELL_PREP_GUIDE.md` ⭐
+
+**This guide covers:**
+- ✅ Python skills (your tech focus)
+- ✅ Procurement fundamentals (business knowledge)
+- ✅ Defense industry context (ITAR, compliance, culture)
+- ✅ Real scenarios you'll face
+- ✅ How everything connects
+
+**Read time:** 30-40 minutes (full overview)  
+**Then study:** 16-22 hours across 5 phases
+
+**See:** `COMPLETE_BELL_PREP_GUIDE.md`
+
+---
+
+## 📋 Quick Navigation
+
+| Your Situation | Read This | Time |
 |---|---|---|
-| I'm new - where do I begin? | Read `STUDY_GUIDE_50_50.md` then start patterns | 15 min + 8-10 hrs |
-| I know what I'm doing - let's go | Open `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` | 8-10 hrs |
-| I just want the facts | Open `QUICK_REFERENCE.md` | 2 min |
-| I need to find something | Open `FILE_NAVIGATOR.md` | 2 min |
+| "I'm completely new to this" | `COMPLETE_BELL_PREP_GUIDE.md` | 40 min overview |
+| "I want to learn Python patterns" | `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` | 8-10 hrs |
+| "I need to understand my job" | `JOB_DESCRIPTION.md` | 20 min |
+| "I need to learn terminal" | `TERMINAL_COMMANDS_GUIDE.md` | 1-2 hrs |
+| "I want to practice" | `PATTERNS_PRACTICE_WORKBOOK.md` | 2-3 hrs |
+| "I need to find something" | `FILE_NAVIGATOR.md` | Quick lookup |
 
 ---
 
-## 📚 Core Files (Study These)
+## 🎯 Your Three Focus Areas
 
-**Your main study materials:**
+| Area | Time | Why |
+|------|------|-----|
+| **Python** (Your tech gap) | 8-10 hrs | You'll code daily, need strong foundation |
+| **Procurement** (Business knowledge) | 3-4 hrs | You need to understand what you're automating |
+| **Defense Industry** (New environment) | 2-3 hrs | This is your first defense contractor |
 
-1. **STUDY_GUIDE_50_50.md** ⭐ READ FIRST
-   - Explains your 50/50 tech + business job
-   - Shows how patterns connect to real work
-   - Your roadmap
-
-2. **PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md**
-   - Learn the 10 coding patterns
-   - Real examples, real exercises
-   - 8-10 hours total
-
-3. **JOB_DESCRIPTION.md**
-   - What the actual job is
-   - Your responsibilities
-   - 15 minutes
-
-4. **TERMINAL_COMMANDS_GUIDE.md**
-   - How to use the command line
-   - Daily work tools
-   - 1-2 hours
+**Total prep time: 16-22 hours**
 
 ---
 
-## 🎯 Your Path
+## 📂 All Your Study Materials
 
-**Week 1: Learn Patterns**
-- `STUDY_GUIDE_50_50.md` (15 min)
-- `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` (8-10 hrs)
-- Run `procurement_automation.py` to see it work
+### Core Files (You'll Use These)
+- **`COMPLETE_BELL_PREP_GUIDE.md`** - Your main study guide (PHASE-BASED)
+- **`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`** - Learn Python patterns
+- **`procurement_automation.py`** - Real code example
+- **`JOB_DESCRIPTION.md`** - Your actual job
+- **`TERMINAL_COMMANDS_GUIDE.md`** - How to run code
 
-**Week 2: Build Confidence**
-- `TERMINAL_COMMANDS_GUIDE.md` (1-2 hrs)
-- `PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md` (2-3 hrs)
-- Practice running code yourself
-
-**Week 3: Business Context**
-- Re-read `JOB_DESCRIPTION.md`
-- Review comments in `procurement_automation.py`
-- You're ready
-
----
-
-## 📍 Most Important Files
-
-| File | Why | When |
-|---|---|---|
-| `STUDY_GUIDE_50_50.md` | Understand your job structure | Now |
-| `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` | Learn the patterns | This week |
-| `procurement_automation.py` | See patterns in real code | Reference while learning |
-| `TERMINAL_COMMANDS_GUIDE.md` | Learn your daily tools | Week 1-2 |
-| `JOB_DESCRIPTION.md` | Know the actual job | Before Day 1 |
+### Reference Files (Use as Needed)
+- **`PATTERNS_STUDY_KIT/00_START_HERE.md`** - Patterns study roadmap
+- **`PATTERNS_PRACTICE_WORKBOOK.md`** - Practice problems
+- **`FILE_NAVIGATOR.md`** - Find files fast
+- **`README.md`** - Project overview
+- **`QUICK_REFERENCE.md`** - Fast facts
 
 ---
 
-## ✅ What You'll Know
+## ✅ Your Study Plan (5 Phases)
 
-**Technical:**
-- How to read/write patterns
-- How to validate data
-- How to loop and transform
-- How to handle errors
-- How to build functions
+**Phase 1: Defense Industry** (2-3 hours)
+- Understand ITAR and why it matters
+- Learn defense contractor culture
+- See: `COMPLETE_BELL_PREP_GUIDE.md` - Phase 1
 
-**Business:**
-- What procurement is
-- Why compliance matters
-- How to assess risk
-- What audit trails are
-- Who your suppliers are
+**Phase 2: Procurement Basics** (3-4 hours)
+- Learn supplier data and why it matters
+- Understand validation and compliance
+- See: `COMPLETE_BELL_PREP_GUIDE.md` - Phase 2
 
-**Practical:**
-- Run code in terminal
-- Check if something is broken
-- Read log output
-- Ask the right questions
+**Phase 3: Python & Patterns** (8-10 hours)
+- Learn 10 patterns with real examples
+- Study: `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`
+- Reference: `procurement_automation.py`
 
----
+**Phase 4: Tools & Terminal** (1-2 hours)
+- Learn to run code and troubleshoot
+- Study: `TERMINAL_COMMANDS_GUIDE.md`
 
-## 🎓 You're Prepared When...
-
-- [ ] You can explain any pattern in 2 minutes
-- [ ] You can run the import code yourself
-- [ ] You understand what each step does
-- [ ] You know what ITAR and AS9100 mean
-- [ ] You can read the code comments and understand the business logic
-- [ ] You're not scared of the terminal
+**Phase 5: Integration** (2-3 hours)
+- Put it all together
+- Real scenarios
+- Study: `PATTERNS_PRACTICE_WORKBOOK.md`
 
 ---
 
-## 🚀 Next Step
+## 🎓 Right Now
 
-Open `STUDY_GUIDE_50_50.md` and read it. (15 minutes)
+**Do this:**
+1. Open `COMPLETE_BELL_PREP_GUIDE.md`
+2. Read the overview (30-40 min)
+3. Understand your 3 focus areas
+4. Start Phase 1 (today)
 
-Then start learning patterns.
+**Then:**
+1. Follow the 5-phase study plan
+2. Use referenced files as you learn
+3. Build confidence step by step
 
-You've got this. 💪
+---
+
+## 💡 Key Points
+
+- You're joining a **defense contractor** (first time - very different)
+- You're learning **Python** (your main technical gap)
+- You're learning **procurement** (you have business sense, need specifics)
+- Everything connects to your job
+- You're not expected to know everything on Day 1 (impossible)
+- You're expected to have solid foundation (you will)
+
+---
+
+## 🚀 Start Now
+
+**Open:** `COMPLETE_BELL_PREP_GUIDE.md`
+
+**Read:** Phase 1 (defense industry context)
+
+**Then:** Follow the 5-phase plan in that guide
+
+You're ready. Let's go. 💪
