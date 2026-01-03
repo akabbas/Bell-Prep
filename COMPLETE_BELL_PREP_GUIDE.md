@@ -68,7 +68,7 @@ You're joining a **defense contractor** for the first time. This is very differe
 - Breaking it = serious legal consequences
 - Not a suggestion, it's law
 
-**See:** `JOB_DESCRIPTION.md` - "COMPLIANCE & SECURITY REQUIREMENTS" section for official definition
+**See:** [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md) - "COMPLIANCE & SECURITY REQUIREMENTS" section for official definition
 
 ### What This Means for Your Job
 
@@ -87,7 +87,7 @@ You're joining a **defense contractor** for the first time. This is very differe
 
 ### Quick Study Guide
 
-**Read from `JOB_DESCRIPTION.md`:**
+**Read from [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md):**
 1. "COMPLIANCE & SECURITY REQUIREMENTS" section
    - Understand ITAR and EAR
    - Know it's not casual
@@ -194,14 +194,14 @@ for supplier in suppliers:
 - Not just any 9 digits (has checksum algorithm)
 - Supplier without valid DUNS = can't do business
 - You'll write code to validate this
-- **See:** `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 2 (Validation)
+- **See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 2 (Validation)
 
 **Risk Scoring**
 - High spend + high risk = problem
 - Old audit date + no recert = problem
 - ITAR supplier without compliance = problem
 - You'll calculate/flag these
-- **See:** `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 3 (Loop & Transform)
+- **See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 3 (Loop & Transform)
 
 **Performance Scoring (Weighted)**
 - On-time delivery: 40% weight
@@ -209,7 +209,7 @@ for supplier in suppliers:
 - Cost: 20% weight
 - Risk: 10% weight
 - Higher score = better supplier
-- **See:** `procurement_automation.py` lines 500-550 (real code)
+- **See:** [`procurement_automation.py`](procurement_automation.py) lines 500-550 (real code)
 
 **Compliance Flags**
 - ITAR compliant? Yes/No
@@ -227,7 +227,7 @@ Your validation code: ❌ INVALID
 Result: Supplier can't be added until fixed
 ```
 **Pattern used:** Pattern 2 (Validation)  
-**See:** `PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 2
+**See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 2
 
 **Scenario 2: High-Risk Supplier Alert**
 ```
@@ -237,7 +237,7 @@ Procurement team: Reviews before approving $1M contract
 Result: Prevents potential $1M loss
 ```
 **Pattern used:** Pattern 3 (Loop & Transform)  
-**See:** `PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 3
+**See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 3
 
 **Scenario 3: ITAR Compliance Mismatch**
 ```
@@ -260,7 +260,7 @@ Result: Quality assurance maintained
 
 ### Study Guide
 
-**Read from `JOB_DESCRIPTION.md`:**
+**Read from [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md):**
 1. "WHAT YOU'LL BE DOING" - especially:
    - "Design and implement automated solutions"
    - "Integrate data and workflows between Ariba, SAP, and legacy systems"
@@ -290,7 +290,7 @@ Result: Quality assurance maintained
 
 ### What Python You Actually Need
 
-**Based on `JOB_DESCRIPTION.md`, you need to:**
+**Based on [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md), you need to:**
 1. Read configuration (which API? which database?)
 2. Call API to get supplier data
 3. Validate that data
@@ -307,49 +307,49 @@ Result: Quality assurance maintained
 - **Example:** Dev uses localhost, prod uses prod.server.com
 - **In your job:** Know which API endpoint to use without changing code
 - **When:** Every time you run the script
-- **See:** `PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 1
+- **See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 1
 
 **Pattern 2: Validation** (Constant)
 - **What it does:** Check if data meets requirements
 - **Example:** DUNS is 9 digits, score is 0-5, date is valid
 - **In your job:** Validate supplier data before storing
 - **When:** Processing supplier data from Ariba
-- **See:** `PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 2
+- **See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 2
 
 **Pattern 3: Loop & Transform** (Daily)
 - **What it does:** Process many items at once
 - **Example:** For each of 300 suppliers, validate and calculate score
 - **In your job:** Import all suppliers, clean data, calculate metrics
 - **When:** Main data import process
-- **See:** `PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 3
+- **See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 3
 
 **Pattern 4: Error Handling** (When things break)
 - **What it does:** Catch problems and keep going
 - **Example:** API fails on supplier #150, skip it, continue with #151
 - **In your job:** API timeouts, database connection issues
 - **When:** Real-world scenarios when things go wrong
-- **See:** `PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 4
+- **See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 4
 
 **Pattern 5: Create/Configure/Return** (Data objects)
 - **What it does:** Build a complete object with all fields
 - **Example:** Create supplier object with all data before saving
 - **In your job:** Build supplier objects with all required fields
 - **When:** Creating records for database
-- **See:** `PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 5
+- **See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 5
 
 **Patterns 6-10: Supporting Patterns** (As needed)
 - **What they do:** Various patterns for specific scenarios
 - **In your job:** Handle edge cases and special situations
 - **When:** As needed throughout your work
-- **See:** `PATTERNS_UNDERSTANDING_PRACTICE.md` - Patterns 6-10 (quick reference)
+- **See:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Patterns 6-10 (quick reference)
 
 ### Your Study Approach for Python
 
-**File:** `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`
+**File:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md)
 
 **Deep study of Patterns 1-5 (1-1.5 hours each):**
 1. UNDERSTAND IT - What the pattern does
-2. GUIDED EXAMPLE - Real code from `procurement_automation.py`
+2. GUIDED EXAMPLE - Real code from [`procurement_automation.py`](procurement_automation.py)
 3. PRACTICE PROBLEM - You try it (answer provided)
 4. SPOT IT - Find it in real code with line numbers
 5. YOUR JOB AT BELL - Real scenario you'll face
@@ -360,17 +360,17 @@ Result: Quality assurance maintained
 - Learn on the job when needed
 
 **Then practice (2-3 hours):**
-- **File:** `PATTERNS_PRACTICE_WORKBOOK.md`
+- **File:** [`PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md`](PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md)
 - Write simple scripts
 - Connect patterns to procurement scenarios
 - Build confidence
 
 **Keep open while studying:**
-- **File:** `procurement_automation.py` (real code showing all patterns)
+- **File:** [`procurement_automation.py`](procurement_automation.py) (real code showing all patterns)
 
 ### Real Code to Study
 
-**File:** `procurement_automation.py` (1,309 lines of real production code)
+**File:** [`procurement_automation.py`](procurement_automation.py) (1,309 lines of real production code)
 
 **Sections to focus on:**
 - Lines 1-100: Configuration (Pattern 1)
@@ -379,16 +379,16 @@ Result: Quality assurance maintained
 - Lines 600-700: Error handling (Pattern 4)
 - Lines 800-900: Complex functions (Pattern 5)
 
-**See:** `PATTERNS_STUDY_KIT/00_START_HERE.md` for study roadmap
+**See:** [`PATTERNS_STUDY_KIT/00_START_HERE.md`](PATTERNS_STUDY_KIT/00_START_HERE.md) for study roadmap
 
 ### How to Study Python in Order
 
-1. **Start:** `PATTERNS_UNDERSTANDING_PRACTICE.md` Pattern 1
-2. **Reference:** Keep `procurement_automation.py` open
+1. **Start:** [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) Pattern 1
+2. **Reference:** Keep [`procurement_automation.py`](procurement_automation.py) open
 3. **Follow:** UNDERSTAND → GUIDED EXAMPLE → PRACTICE → SPOT IT
 4. **Repeat:** For Patterns 2-5
 5. **Then:** Patterns 6-10 quick reference
-6. **Finally:** `PATTERNS_PRACTICE_WORKBOOK.md` practice problems
+6. **Finally:** [`PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md`](PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md) practice problems
 
 ### Success Criteria for Phase 3
 - [ ] Can read Python code and explain what it does
@@ -423,13 +423,13 @@ Result: Quality assurance maintained
 
 **Study Guide**
 
-**File:** `TERMINAL_COMMANDS_GUIDE.md`
+**File:** [`README.md`](README.md) - Quick Setup section
 - Learn: How to run code
 - Learn: How to read logs
 - Learn: How to troubleshoot
 
 **Then practice:**
-- Run `procurement_automation.py` yourself
+- Run [`procurement_automation.py`](procurement_automation.py) yourself
 - See what happens
 - Read the output
 - Understand error messages
@@ -453,7 +453,7 @@ python -m environment_cli info
 python -m environment_cli check
 ```
 
-**See:** `TERMINAL_COMMANDS_GUIDE.md` for full reference
+**See:** [`README.md`](README.md) for full reference
 
 ### Success Criteria for Phase 4
 - [ ] Can run Python scripts
@@ -559,12 +559,12 @@ python -m environment_cli check
 
 ### Study Guide
 
-**File:** `PATTERNS_PRACTICE_WORKBOOK.md`
+**File:** [`PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md`](PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md)
 - Read: Real Bell scenarios
 - Write: Simple scripts for these scenarios
 - Understand: How it all works together
 
-**File:** `procurement_automation.py`
+**File:** [`procurement_automation.py`](procurement_automation.py)
 - Read through the full code
 - Can you explain what each section does?
 - Can you point to which pattern it uses?
@@ -584,11 +584,11 @@ python -m environment_cli check
 
 | Phase | Topic | Time | Key Files |
 |-------|-------|------|-----------|
-| 1 | Defense industry + ITAR + compliance | 2-3 hrs | `JOB_DESCRIPTION.md` |
-| 2 | Procurement fundamentals + supplier data | 3-4 hrs | `JOB_DESCRIPTION.md` + scenarios |
-| 3 | Python patterns + coding skills | 8-10 hrs | `PATTERNS_UNDERSTANDING_PRACTICE.md` + `procurement_automation.py` |
-| 4 | Tools + terminal + execution | 1-2 hrs | `TERMINAL_COMMANDS_GUIDE.md` |
-| 5 | Integration + real scenarios | 2-3 hrs | `PATTERNS_PRACTICE_WORKBOOK.md` + real code |
+| 1 | Defense industry + ITAR + compliance | 2-3 hrs | [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md) |
+| 2 | Procurement fundamentals + supplier data | 3-4 hrs | [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md) + scenarios |
+| 3 | Python patterns + coding skills | 8-10 hrs | [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) + [`procurement_automation.py`](procurement_automation.py) |
+| 4 | Tools + terminal + execution | 1-2 hrs | [`README.md`](README.md) |
+| 5 | Integration + real scenarios | 2-3 hrs | [`PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md`](PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md) + real code |
 
 **Total: 16-22 hours focused preparation**
 
@@ -630,18 +630,16 @@ python -m environment_cli check
 ## 📍 Files Referenced in This Guide
 
 **Your main study materials:**
-- `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` - Learn the 10 patterns with real examples
-- `procurement_automation.py` - Real production code showing all patterns
-- `JOB_DESCRIPTION.md` - The actual job you're preparing for
-- `PATTERNS_STUDY_KIT/00_START_HERE.md` - Study roadmap and navigation
-- `TERMINAL_COMMANDS_GUIDE.md` - How to run code and troubleshoot
-- `PATTERNS_PRACTICE_WORKBOOK.md` - Practice problems and scenarios
+- [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Learn the 10 patterns with real examples
+- [`procurement_automation.py`](procurement_automation.py) - Real production code showing all patterns
+- [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md) - The actual job you're preparing for
+- [`PATTERNS_STUDY_KIT/00_START_HERE.md`](PATTERNS_STUDY_KIT/00_START_HERE.md) - Study roadmap and navigation
+- [`PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md`](PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md) - Practice problems and scenarios
 
 **Additional reference materials:**
-- `README.md` - Project overview
-- `ENVIRONMENT_AT_BELL.md` - Environment setup details
-- `QUICK_REFERENCE.md` - Fast lookups
-- `FILE_NAVIGATOR.md` - Find files quickly
+- [`README.md`](README.md) - Project overview
+- [`QUICK_REFERENCE.md`](QUICK_REFERENCE.md) - Fast lookups
+- [`PROJECT_STRUCTURE.md`](PROJECT_STRUCTURE.md) - Project organization guide
 
 ---
 
@@ -650,26 +648,26 @@ python -m environment_cli check
 **Start with:**
 1. **Phase 1 (today):** Read defense industry section (2-3 hours)
    - Read this file's Phase 1 section
-   - Read `JOB_DESCRIPTION.md` - "COMPLIANCE & SECURITY REQUIREMENTS"
+   - Read [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md) - "COMPLIANCE & SECURITY REQUIREMENTS"
    - Understand ITAR and why it matters
 
 2. **Phase 2 (tomorrow):** Learn procurement (3-4 hours)
    - Read this file's Phase 2 section
-   - Read `JOB_DESCRIPTION.md` - "WHAT YOU'LL BE DOING"
+   - Read [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md) - "WHAT YOU'LL BE DOING"
    - Study supplier scenarios
 
 3. **Phase 3 (start ASAP):** Master Python (8-10 hours)
-   - Open `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`
-   - Keep `procurement_automation.py` open
+   - Open [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md)
+   - Keep [`procurement_automation.py`](procurement_automation.py) open
    - Follow the 5-step pattern learning: UNDERSTAND → GUIDED EXAMPLE → PRACTICE → SPOT IT → YOUR JOB
 
 4. **Phase 4 (after Phase 3):** Learn tools (1-2 hours)
-   - Read `TERMINAL_COMMANDS_GUIDE.md`
-   - Run `procurement_automation.py` yourself
+   - Read [`README.md`](README.md) - Quick Setup
+   - Run [`procurement_automation.py`](procurement_automation.py) yourself
    - Get comfortable in terminal
 
 5. **Phase 5 (final phase):** Integration (2-3 hours)
-   - Read `PATTERNS_PRACTICE_WORKBOOK.md`
+   - Read [`PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md`](PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md)
    - Write simple scripts
    - See how it all connects
 
@@ -763,7 +761,7 @@ You're different. You're prepared.
 
 **Today:**
 1. Read: This guide's Phase 1 section (defense industry)
-2. Read: `JOB_DESCRIPTION.md` - "COMPLIANCE & SECURITY REQUIREMENTS"
+2. Read: [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md) - "COMPLIANCE & SECURITY REQUIREMENTS"
 3. Understand: You're joining a different kind of company
 
 **Tomorrow:**
@@ -772,8 +770,8 @@ You're different. You're prepared.
 3. Understand: Why data quality matters in this context
 
 **This Week:**
-1. Start: `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` - Pattern 1
-2. Keep open: `procurement_automation.py`
+1. Start: [`PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`](PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md) - Pattern 1
+2. Keep open: [`procurement_automation.py`](procurement_automation.py)
 3. Follow: The 5-step learning process
 4. Build: Python skills systematically
 
@@ -790,24 +788,24 @@ You're different. You're prepared.
 **If you don't understand a pattern:**
 - Re-read the UNDERSTAND IT section
 - Study the GUIDED EXAMPLE in detail
-- Look at the real code in `procurement_automation.py`
+- Look at the real code in [`procurement_automation.py`](procurement_automation.py)
 - Do the PRACTICE PROBLEM (answer provided)
-- See: `PATTERNS_STUDY_KIT/00_START_HERE.md`
+- See: [`PATTERNS_STUDY_KIT/00_START_HERE.md`](PATTERNS_STUDY_KIT/00_START_HERE.md)
 
 **If you don't understand procurement:**
 - Re-read the scenario in this guide
 - Think about why each check matters
 - Connect it to defense industry context
-- See: `JOB_DESCRIPTION.md` - "WHAT YOU'LL BE DOING"
+- See: [`JOB_DESCRIPTION.md`](JOB_DESCRIPTION.md) - "WHAT YOU'LL BE DOING"
 
 **If you can't run code:**
-- Read: `TERMINAL_COMMANDS_GUIDE.md`
+- Read: [`README.md`](README.md) - Quick Setup section
 - Follow: Step-by-step instructions
 - Practice: Multiple times
-- See: `README.md` - Quick Start section
+- See: [`PATTERNS_STUDY_KIT/00_START_HERE.md`](PATTERNS_STUDY_KIT/00_START_HERE.md)
 
 **If something doesn't connect:**
-- Check: `FILE_NAVIGATOR.md` for file locations
+- Check: [`PROJECT_STRUCTURE.md`](PROJECT_STRUCTURE.md) for file locations
 - Read: The file mentioned in the scenario
 - Connect: Back to this guide
 - Ask: On Day 1 (Matt expects this)
@@ -829,4 +827,3 @@ You've got this. 💪
 **Start now.** Read Phase 1. Then move to Phase 2. Then dive into Python. You're ready.
 
 🚀
-
