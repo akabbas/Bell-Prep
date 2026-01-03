@@ -13,7 +13,7 @@
 | **Need quick reference?** | → `PATTERNS_QUICK_REFERENCE.md` |
 | **Ready to practice?** | → `PATTERNS_PRACTICE_WORKBOOK.md` |
 | **Want harder challenges?** | → `PATTERN_EXERCISES_REAL_CODE.md` |
-| **Need your daily roadmap?** | → `STUDY_PLAN_14_DAYS.md` |
+| **Need your daily roadmap?** | → `STUDY_PLAN_19_DAYS.md` |
 | **Want a visual summary?** | → `YOUR_STUDY_ROADMAP.txt` |
 | **Final overview?** | → `PATTERNS_COMPLETE_SUMMARY.md` |
 

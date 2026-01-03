@@ -325,7 +325,7 @@ One pattern every 2 days. You can do that in your sleep.
 ### Step 1: Open 00_START_HERE.md
 Read it. It tells you everything about your study kit.
 
-### Step 2: Open STUDY_PLAN_14_DAYS.md
+### Step 2: Open STUDY_PLAN_19_DAYS.md
 Find today's date. Go to the section for today.
 
 ### Step 3: Follow Today's Tasks

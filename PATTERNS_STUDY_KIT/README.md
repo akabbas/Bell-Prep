@@ -71,7 +71,7 @@
 ### The Right Order
 
 1. **TODAY:** `00_START_HERE.md` (10 min orientation)
-2. **TODAY:** `STUDY_PLAN_14_DAYS.md` (5 min find today)
+2. **TODAY:** `STUDY_PLAN_19_DAYS.md` (5 min find today)
 3. **DAY 1-14:** Follow daily plan:
    - Read pattern from `CODING_PATTERNS_GUIDE.md`
    - Do exercises from `PATTERNS_PRACTICE_WORKBOOK.md`
@@ -172,7 +172,7 @@ And so on for 19 days
 |----------|-----------------|
 | What do I start with? | → `00_START_HERE.md` |
 | How do I navigate? | → `INDEX.md` |
-| What should I study today? | → `STUDY_PLAN_14_DAYS.md` |
+| What should I study today? | → `STUDY_PLAN_19_DAYS.md` |
 | Explain this pattern deeply | → `CODING_PATTERNS_GUIDE.md` |
 | Quick pattern lookup | → `PATTERNS_QUICK_REFERENCE.md` |
 | Let me practice | → `PATTERNS_PRACTICE_WORKBOOK.md` |
