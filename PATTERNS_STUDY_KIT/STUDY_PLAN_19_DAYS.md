@@ -1,4 +1,4 @@
-# 14-Day Coding Patterns Study Plan
+# 19-Day Coding Patterns Study Plan
 
 **Your countdown to Bell Textron. Complete this by January 12.**
 
@@ -6,416 +6,269 @@
 
 ## Overview
 
-- **Total Days:** 14 days until January 12
-- **Study Time:** 1-2 hours per day
-- **Goal:** Master 10 coding patterns
-- **Outcome:** Understand 80% of Bell's codebase
+- **Total Days:** 19 days until January 12
+- **Study Time:** 1.5-2 hours per day
+- **Goal:** Master 10 coding patterns with deep consolidation
+- **Outcome:** Understand 90% of Bell's codebase with confidence
+- **Flexibility:** Can condense to 14 days if needed
 
 ---
 
 ## Days 1-3: Pattern 1 (Configuration Reading)
 
 ### Day 1: Learn Pattern 1
+**Time:** 1.5 hours
 
-**Time:** 45 minutes
+1. Read: CODING_PATTERNS_GUIDE.md → Pattern 1 section (20 min)
+2. Find: 3 examples in procurement_automation.py (20 min)
+3. Complete: Exercise 1, Task 1 in PATTERNS_PRACTICE_WORKBOOK.md (30 min)
+4. Deep dive: Understand config.ini structure (20 min)
 
-**Tasks:**
-1. Read: CODING_PATTERNS_GUIDE.md → Pattern 1 section (15 min)
-2. Understand: What config.get() does
-3. Find: 3 examples in procurement_automation.py
-4. Record: Write line numbers and what each reads
-
-**What to do:**
-- Open procurement_automation.py
-- Search for "config.get"
-- For each one found:
-  - Note the line number
-  - Note what value is being read
-  - Note why (what's it used for)
-
-**Success:** Can you explain what config.get() does? Y/N
+**Success:** Can you explain config.get()? Y/N
 
 ---
 
 ### Day 2: Practice Pattern 1
+**Time:** 1.5 hours
 
-**Time:** 45 minutes
+1. Write: Your own config.get() examples (25 min)
+2. Find: 2 more examples in code (20 min)
+3. Trace: How configuration flows through the system (25 min)
+4. Review: Pattern 1 in PATTERNS_QUICK_REFERENCE.md (15 min)
 
-**Tasks:**
-1. Complete: Exercise 1, Task 1 in PATTERNS_PRACTICE_WORKBOOK.md
-2. Write: Your own config.get() examples
-3. Find: 3 more config.get() calls if they exist
-4. Test: Can you find where config.ini is used?
-
-**Hands-on:**
-- Open config.ini
-- Look at the [DEFAULT], [DEV], [PROD] sections
-- Understand: Different configs for different environments
-- Trace: Find where these are read in procurement_automation.py
-
-**Success:** Can you read a value from config? Y/N
+**Success:** Can you find where configs are used? Y/N
 
 ---
 
 ### Day 3: Master Pattern 1
+**Time:** 1 hour
 
-**Time:** 30 minutes
+1. Quiz: Identify all config usages in the codebase (20 min)
+2. Connect: Why does Bell use configuration? (20 min)
+3. Consolidate: Map out dev/test/prod configs (20 min)
 
-**Tasks:**
-1. Review: Pattern 1 section in PATTERNS_QUICK_REFERENCE.md
-2. Quiz: Check yourself - can you spot Pattern 1?
-3. Connect: Why does Bell use configuration instead of hardcoding?
-4. Ready: Move on? Y/N
-
-**Deeper Thinking:**
-- Why would Bell need different settings for dev/test/prod?
-- What would happen if database URL was hardcoded?
-- How does config help with security?
-
-**Success:** Ready to move to Pattern 2? Y/N
+**Success:** Pattern 1 mastered? Y/N
 
 ---
 
 ## Days 4-6: Pattern 2 (Validation)
 
 ### Day 4: Learn Pattern 2
+**Time:** 1.5 hours
 
-**Time:** 1 hour
-
-**Tasks:**
 1. Read: CODING_PATTERNS_GUIDE.md → Pattern 2 section (20 min)
-2. Study: The _validate_duns_number() function (lines 517-540)
-3. Trace: Each validation check step by step
-4. Record: What each check does
+2. Study: _validate_duns_number() function (lines 517-540) (20 min)
+3. Complete: Exercise 1, Task 2 in PATTERNS_PRACTICE_WORKBOOK.md (30 min)
+4. Understand: All validation checks step-by-step (20 min)
 
-**What to understand:**
-- First check: Is DUNS empty?
-- Second check: Does it contain only numbers?
-- Third check: Is it exactly 9 digits?
-- Fourth check: Return cleaned version
-
-**Success:** Can you list all 4 validation checks? Y/N
+**Success:** Can you list all validation checks? Y/N
 
 ---
 
 ### Day 5: Practice Pattern 2
+**Time:** 1.5 hours
 
-**Time:** 1 hour
+1. Find: 3 more validation patterns in code (25 min)
+2. Write: Your own validation function (25 min)
+3. Review: Pattern 2 in PATTERNS_QUICK_REFERENCE.md (15 min)
+4. Connect: Why is validation important? (25 min)
 
-**Tasks:**
-1. Complete: Exercise 1, Task 2 in PATTERNS_PRACTICE_WORKBOOK.md
-2. Find: 3 more validation patterns in your code
-3. Understand: Why each validation is important
-4. Write: Your own simple validation function
-
-**Write your own:**
-```python
-def validate_percentage(value):
-    # Check if value is numeric
-    # Check if value is between 0 and 100
-    # Return cleaned value or raise error
-    pass
-```
-
-**Success:** Can you write a validation function? Y/N
+**Success:** Can you write validation code? Y/N
 
 ---
 
 ### Day 6: Master Pattern 2
+**Time:** 1 hour
 
-**Time:** 30 minutes
+1. Quiz: Identify validation patterns in code (20 min)
+2. Deep dive: Understand validation error scenarios (20 min)
+3. Consolidate: Map all validations needed (20 min)
 
-**Tasks:**
-1. Review: Pattern 2 in PATTERNS_QUICK_REFERENCE.md
-2. Quiz: Identify 3 validation patterns in your code
-3. Connect: Why is DUNS validation important for Bell?
-4. Ready: Move on? Y/N
-
-**Real Bell Connection:**
-- DUNS numbers identify suppliers
-- Wrong DUNS = wrong supplier = wrong contract
-- Validation prevents disasters
-
-**Success:** Ready for Pattern 3? Y/N
+**Success:** Pattern 2 mastered? Y/N
 
 ---
 
 ## Days 7-9: Pattern 3 (Loop and Transform)
 
 ### Day 7: Learn Pattern 3
+**Time:** 1.5 hours
 
-**Time:** 1 hour
+1. Read: CODING_PATTERNS_GUIDE.md → Pattern 3 section (20 min)
+2. Study: clean_suppliers() function (lines 387-419) (20 min)
+3. Complete: Exercise 1, Task 3 in PATTERNS_PRACTICE_WORKBOOK.md (30 min)
+4. Trace: One supplier through cleaning (20 min)
 
-**Tasks:**
-1. Read: CODING_PATTERNS_GUIDE.md → Pattern 3 section
-2. Study: clean_suppliers() function (lines 387-419)
-3. Understand: What's being looped? What's the output?
-4. Trace: Each supplier through the cleaning process
-
-**Key concepts:**
-- Input: Raw 250 suppliers from API
-- Loop: For each supplier...
-- Transform: Clean and validate it
-- Output: Cleaned list + error list
-
-**Success:** Can you trace one supplier through cleaning? Y/N
+**Success:** Can you trace the cleaning process? Y/N
 
 ---
 
 ### Day 8: Practice Pattern 3
+**Time:** 1.5 hours
 
-**Time:** 1 hour
+1. Find: 2 more loop patterns in code (20 min)
+2. Learn: List comprehensions vs traditional loops (25 min)
+3. Write: Both comprehension and loop styles (25 min)
+4. Review: Pattern 3 in PATTERNS_QUICK_REFERENCE.md (15 min)
 
-**Tasks:**
-1. Complete: Exercise 1, Task 3 in PATTERNS_PRACTICE_WORKBOOK.md
-2. Find: 2 more loop patterns in your code
-3. Learn: List comprehensions (simpler version of loops)
-4. Compare: Traditional loop vs comprehension
-
-**Traditional loop:**
-```python
-names = []
-for s in suppliers:
-    names.append(s.name)
-```
-
-**Comprehension:**
-```python
-names = [s.name for s in suppliers]
-```
-
-**Both do the same thing. Comprehension is shorter.**
-
-**Success:** Can you write both styles? Y/N
+**Success:** Can you write both loop styles? Y/N
 
 ---
 
 ### Day 9: Master Pattern 3
+**Time:** 1 hour
 
-**Time:** 45 minutes
+1. Quiz: Identify loop patterns and comprehensions (20 min)
+2. Connect: How would Bell process 250 suppliers? (20 min)
+3. Consolidate: Practice performance considerations (20 min)
 
-**Tasks:**
-1. Review: Pattern 3 in PATTERNS_QUICK_REFERENCE.md
-2. Quiz: Spot 3 loop patterns in your code
-3. Connect: How would Bell process 250 suppliers without loops?
-4. Ready: Move on? Y/N
-
-**Real scenario:**
-- Bell gets 250 suppliers from Ariba
-- Each needs cleaning and validation
-- Loop processes all 250 automatically
-
-**Success:** Ready for Pattern 4? Y/N
+**Success:** Pattern 3 mastered? Y/N
 
 ---
 
-## Days 10-11: Pattern 4 (Error Handling)
+## Days 10-12: Pattern 4 (Error Handling)
 
 ### Day 10: Learn Pattern 4
+**Time:** 1.5 hours
 
-**Time:** 1 hour
+1. Read: CODING_PATTERNS_GUIDE.md → Pattern 4 section (20 min)
+2. Study: Error handling in upsert_suppliers() (lines 806-957) (20 min)
+3. Complete: Exercise 1, Task 4 in PATTERNS_PRACTICE_WORKBOOK.md (30 min)
+4. Understand: What errors can occur (20 min)
 
-**Tasks:**
-1. Read: CODING_PATTERNS_GUIDE.md → Pattern 4 section
-2. Study: Error handling in upsert_suppliers() (lines 806-957)
-3. Understand: What could go wrong? What catches it?
-4. Trace: What happens when IntegrityError occurs?
-
-**Key concepts:**
-- try: The risky operation (insert/update)
-- except: What to do if it fails
-- Continue: Process next supplier instead of crashing
-
-**Success:** Can you trace an error through handling? Y/N
+**Success:** Can you trace error handling? Y/N
 
 ---
 
 ### Day 11: Practice Pattern 4
+**Time:** 1.5 hours
 
-**Time:** 1 hour
+1. Find: 2 more error handling patterns (20 min)
+2. Write: Your own try/except example (25 min)
+3. Understand: Why crashes matter (20 min)
+4. Review: Pattern 4 in PATTERNS_QUICK_REFERENCE.md (15 min)
 
-**Tasks:**
-1. Complete: Exercise 1, Task 4 in PATTERNS_PRACTICE_WORKBOOK.md
-2. Find: 2 more error handling patterns
-3. Write: Your own try/except example
-4. Understand: Why we don't want crashes
-
-**Your scenario:**
-- What if 1 of 250 suppliers has bad data?
-- Without try/except: Program crashes, nothing is saved
-- With try/except: Log error, skip that one, continue
-
-**Success:** Ready for Pattern 5? Y/N
+**Success:** Can you write error handling? Y/N
 
 ---
 
-## Days 12-13: Pattern 5 (Create/Configure/Return)
-
-### Day 12: Learn Pattern 5
-
+### Day 12: Master Pattern 4
 **Time:** 1 hour
 
-**Tasks:**
-1. Read: CODING_PATTERNS_GUIDE.md → Pattern 5 section
-2. Study: setup_logging() (lines 61-99) - this is the PERFECT example
-3. Map: Each step of the setup
-4. Trace: From creation to return
+1. Quiz: Identify error handling scenarios (20 min)
+2. Deep dive: Recovery strategies (20 min)
+3. Consolidate: Error logging patterns (20 min)
 
-**The pattern:**
-- Create: New logger object
-- Configure: Add handlers, set formatter
-- Configure: Add console handler
-- Configure: Add file handler
-- Return: Logger ready to use
+**Success:** Pattern 4 mastered? Y/N
+
+---
+
+## Days 13-15: Pattern 5 (Create/Configure/Return)
+
+### Day 13: Learn Pattern 5
+**Time:** 1.5 hours
+
+1. Read: CODING_PATTERNS_GUIDE.md → Pattern 5 section (20 min)
+2. Study: setup_logging() (lines 61-99) - PERFECT example (20 min)
+3. Complete: Exercise 1, Task 5 in PATTERNS_PRACTICE_WORKBOOK.md (30 min)
+4. Map: Each step of the setup (20 min)
 
 **Success:** Can you map all steps? Y/N
 
 ---
 
-### Day 13: Practice Pattern 5
+### Day 14: Practice Pattern 5
+**Time:** 1.5 hours
 
-**Time:** 1 hour
+1. Find: Another setup function in code (20 min)
+2. Write: Your own simple setup function (25 min)
+3. Map: Its steps (create, configure, return) (20 min)
+4. Review: Pattern 5 in PATTERNS_QUICK_REFERENCE.md (15 min)
 
-**Tasks:**
-1. Complete: Exercise 1, Task 5 in PATTERNS_PRACTICE_WORKBOOK.md
-2. Find: 1 other setup function in code
-3. Map: Its steps (create, configure, return)
-4. Write: Simple setup function
-
-**Your scenario:**
-```python
-def setup_database():
-    # Create
-    db = Database()
-    
-    # Configure
-    db.host = "localhost"
-    db.port = 5432
-    db.timeout = 30
-    
-    # Return
-    return db
-```
-
-**Success:** Ready for Patterns 6-10? Y/N
+**Success:** Can you write setup functions? Y/N
 
 ---
 
-## Days 14-17: Patterns 6-9 (Quick Learning)
+### Day 15: Master Pattern 5
+**Time:** 1 hour
 
-### Day 14: Patterns 6 & 7
+1. Quiz: Identify setup patterns (20 min)
+2. Deep dive: Configuration strategies (20 min)
+3. Consolidate: All 5 patterns review (20 min)
 
-**Time:** 1 hour total
+**Success:** Patterns 1-5 solid? Y/N
 
-**Pattern 6 (Conditional):**
-- Learn: if/else/elif
-- Find: 5 examples in your code
-- Key: Making decisions based on conditions
+---
+
+## Days 16-17: Patterns 6-10 (Supporting Skills)
+
+### Day 16: Learn Patterns 6-7
+**Time:** 1.5 hours
+
+**Pattern 6 (Conditionals):**
+- Learn: if/else/elif (15 min)
+- Find: 5 examples in your code (20 min)
+- Key: Making decisions (10 min)
 
 **Pattern 7 (Dict/Object Access):**
-- Learn: .get() vs ["key"]
-- Find: 5 examples in your code
-- Key: Getting values safely
+- Learn: .get() vs ["key"] (15 min)
+- Find: 5 examples in your code (20 min)
+- Key: Getting values safely (10 min)
 
 **Success:** Can you spot both? Y/N
 
 ---
 
-### Day 15: Patterns 8 & 9
-
-**Time:** 1 hour total
+### Day 17: Learn Patterns 8-10
+**Time:** 1.5 hours
 
 **Pattern 8 (String Formatting):**
-- Learn: f-strings and .format()
-- Find: 3 examples in your code
-- Write: 2 of your own
+- Learn: f-strings and .format() (15 min)
+- Write: 2 of your own (15 min)
 
 **Pattern 9 (List Comprehension):**
-- Learn: [x for x in list if condition]
-- Find: 3 examples in your code
-- Write: 2 of your own
-
-**Success:** Can you use f-strings? Y/N
-
----
-
-### Day 16: Pattern 10 & Review
-
-**Time:** 1 hour
+- Learn: [x for x in list if condition] (15 min)
+- Write: 2 of your own (15 min)
 
 **Pattern 10 (Return Value):**
-- Learn: Functions that return results
-- Find: 5 examples in your code
-- Key: Reusable code
+- Learn: Functions that return results (15 min)
+- Find: 5 examples in your code (15 min)
 
-**Review: Patterns 1-10**
-- Can you name all 10? Y/N
-- Can you recognize each in code? Y/N
-
-**Success:** Ready for consolidation? Y/N
-
----
-
-### Day 17: Recognition Quiz
-
-**Time:** 1 hour
-
-**Tasks:**
-1. Complete: "Pattern Recognition Quiz" in PATTERNS_PRACTICE_WORKBOOK.md
-2. Score: ___/10
-3. Retake: Any you got wrong
-4. Goal: 10/10
-
-**Quiz again:**
-For each code snippet, name the pattern.
-
-**Success:** Score 10/10? Y/N
+**Success:** Can you use all 3? Y/N
 
 ---
 
 ## Days 18-19: Final Consolidation
 
-### Day 18: Real Bell Scenarios
+### Day 18: Pattern Recognition Practice
+**Time:** 2 hours
 
-**Time:** 1 hour
+1. Complete: PATTERN_EXERCISES_REAL_CODE.md exercises (45 min)
+2. Quiz: Pattern recognition quiz - score 8+/10 (45 min)
+3. Review: All patterns from PATTERNS_QUICK_REFERENCE.md (30 min)
 
-**Tasks:**
-1. Complete: "Real Bell Scenarios" in PATTERNS_PRACTICE_WORKBOOK.md
-2. For each scenario:
-   - Identify the pattern needed
-   - Write the code
-   - Understand why that pattern
-3. Consolidate learning
-
-**Scenarios practiced:**
-1. Reading configuration
-2. Validating ITAR compliance
-3. Processing 250 suppliers
-4. Handling database insert errors
-5. Setting up audit logging
-
-**Success:** Can you code all 5 scenarios? Y/N
+**Success:** Can you recognize all 10? Y/N
 
 ---
 
-### Day 19: Final Review & Confidence Check
+### Day 19: Real Scenarios + Ready!
+**Time:** 2 hours
 
-**Time:** 1 hour
+1. Complete: Real Bell scenarios from PATTERNS_PRACTICE_WORKBOOK.md (1 hour)
+   - Reading configuration
+   - Validating ITAR compliance
+   - Processing 250 suppliers
+   - Handling errors
+   - Setting up logging
 
-**Tasks:**
-1. Review: All 10 patterns one more time
-2. Check: Can you recognize them in procurement_automation.py?
-3. Self-assess: How confident are you? 1-10
-4. Celebrate: You're ready for Bell!
+2. Final exercises from PATTERN_EXERCISES_REAL_CODE.md (30 min)
+   - Goal: Score 18+/20
 
-**Self-Assessment:**
-- [ ] I can recognize all 10 patterns
-- [ ] I understand what each does
-- [ ] I found examples of each
-- [ ] I could write basic code using patterns
-- [ ] I'm ready for Bell
+3. Celebrate: You're ready! 🎉 (30 min)
 
-**Confidence Level (1-10):** ___
+**Success:**
+- Score 5/5 on scenarios? Y/N
+- Score 18+/20 on exercises? Y/N
+- Ready for Bell January 12? Y/N
 
 ---
 
@@ -424,75 +277,77 @@ For each code snippet, name the pattern.
 ### Each day, do this:
 
 **Morning (15 min):**
-1. Review yesterday's patterns
-2. Spot patterns in your code from yesterday
+1. Review yesterday's pattern from PATTERNS_QUICK_REFERENCE.md
+2. Spot yesterday's pattern in procurement_automation.py
 3. Mental preparation for today
 
-**Main Study (45-60 min):**
-1. Read the pattern explanation
-2. Find examples in your code
-3. Complete exercises
-4. Write your own examples
+**Main Study (60-90 min):**
+1. Read: Pattern in CODING_PATTERNS_GUIDE.md (20 min)
+2. Practice: Exercises in workbooks (20-30 min)
+3. Find: Examples in procurement_automation.py (15 min)
+4. Write: Your own simple example (15 min)
 
 **Evening (15 min):**
 1. Review what you learned
 2. Check: Did you understand?
 3. Prepare: What's tomorrow?
 
-**Optional (15-30 min):**
-1. Extra practice
-2. Re-read confusing parts
-3. Find more examples
+---
+
+## Study Intensity (19-Day Schedule)
+
+| Day | Focus | Time | Goal |
+|-----|-------|------|------|
+| 1-3 | Pattern 1 | 4 hrs | Configuration ✓ |
+| 4-6 | Pattern 2 | 4 hrs | Validation ✓ |
+| 7-9 | Pattern 3 | 4 hrs | Loop/Transform ✓ |
+| 10-12 | Pattern 4 | 4 hrs | Error Handling ✓ |
+| 13-15 | Pattern 5 | 4 hrs | Create/Configure ✓ |
+| 16 | Patterns 6-7 | 1.5 hrs | Conditionals & Access ✓ |
+| 17 | Patterns 8-10 | 1.5 hrs | Formatting & Return ✓ |
+| 18 | Practice All | 2 hrs | Recognition ✓ |
+| 19 | Real Scenarios | 2 hrs | 🚀 READY |
+
+**Total: 19 days × 1.5-2 hours = 28-38 hours (flexible)**
 
 ---
 
-## What to Study With
+## Checkpoints (Track Your Progress)
 
-**Have open:**
-- CODING_PATTERNS_GUIDE.md (reference)
-- PATTERNS_QUICK_REFERENCE.md (quick lookup)
-- PATTERNS_PRACTICE_WORKBOOK.md (exercises)
-- procurement_automation.py (real examples)
-
-**Keep nearby:**
-- Notebook for notes
-- Pen for writing
-- Water
-
----
-
-## Checkpoints
-
-### End of Day 3
+### By Day 3
 - [ ] Understand Pattern 1
-- [ ] Can find config.get() calls
+- [ ] Find 3 config.get() calls in code
 - [ ] Know why configuration matters
 
-### End of Day 6
+### By Day 6
 - [ ] Understand Pattern 2
-- [ ] Can find validation patterns
+- [ ] Write your own validation
 - [ ] Know why validation matters
 
-### End of Day 9
+### By Day 9
 - [ ] Understand Pattern 3
-- [ ] Can find loop patterns
-- [ ] Know why loops matter
+- [ ] Master loops AND comprehensions
+- [ ] Know why transformation matters
 
-### End of Day 13
-- [ ] Understand Patterns 4-5
-- [ ] Can find error handling
-- [ ] Can identify setup patterns
+### By Day 12
+- [ ] Understand Pattern 4
+- [ ] Find error handling examples
+- [ ] Know why error handling matters
 
-### End of Day 17
-- [ ] Understand Patterns 6-10
-- [ ] Can recognize all patterns
-- [ ] Score 10/10 on recognition quiz
+### By Day 15
+- [ ] Understand Pattern 5
+- [ ] All Patterns 1-5 solid
+- [ ] Score 8+/10 on quiz
 
-### End of Day 19
-- [ ] Can recognize all patterns
-- [ ] Can explain all patterns
-- [ ] Feel confident for Bell
-- [ ] Score ___/10 self-confidence
+### By Day 17
+- [ ] Recognize all 10 patterns
+- [ ] Score 8+/10 on pattern quiz
+- [ ] Comfortable with all concepts
+
+### By Day 19
+- [ ] Score 5/5 on scenarios
+- [ ] Score 18+/20 on exercises
+- [ ] 🚀 READY FOR BELL JAN 12
 
 ---
 
@@ -519,20 +374,39 @@ For each code snippet, name the pattern.
 
 ---
 
-## Final Note
+## Optional Acceleration (If Starting Late)
 
-**January 12 is your deadline, but:**
-- This isn't a race
-- Understanding matters more than speed
-- Better to spend 2 hours on 1 pattern than 10 minutes on 10
-- You can continue learning after Jan 12
+**Can compress to 14 days:**
+- Skip Day 3 master sessions, consolidate on same day as Day 2
+- Combine Days 16-17 into single intensive day
+- Move Day 18 practice into Day 17 evening
 
-**Your goal:**
-✅ Recognize patterns
-✅ Understand them
-✅ Apply them to your job
+**Result:** Still covers all 10 patterns, slightly faster pace
 
-**You've got 19 days. You can do this.**
+---
+
+## Final Checklist Before January 12
+
+- [ ] I can recognize all 10 patterns
+- [ ] I understand what each does
+- [ ] I found examples of each pattern
+- [ ] I could write basic code using patterns
+- [ ] I feel confident reading uncommented code
+- [ ] I'm ready for Bell
+
+**Confidence Level: 1-10 ___**
+
+**Your Bell Readiness: 1-10 ___**
+
+---
+
+## Next Steps (Right Now)
+
+1. **Today:** Open CODING_PATTERNS_GUIDE.md
+2. **Today:** Read Pattern 1 section
+3. **Today:** Find 3 examples in your code
+4. **Tomorrow:** Start Day 2 tasks
+5. **In 19 days:** 🚀 Ready for Bell!
 
 ---
 
@@ -540,14 +414,14 @@ For each code snippet, name the pattern.
 
 **By the end of day 19, you'll be able to:**
 
-✅ Open any Bell code and understand 80% immediately
-✅ Recognize what's happening without comments
-✅ Know which pattern to use for any problem
-✅ Write code that follows Bell's style
-✅ Debug code by understanding patterns
-✅ Learn new code 10x faster
+✅ Open any Bell code and understand 85-90% immediately  
+✅ Recognize what's happening without comments  
+✅ Know which pattern to use for any problem  
+✅ Write code that follows Bell's style  
+✅ Debug code by understanding patterns  
+✅ Learn new code 10x faster  
 
-**That's the power of pattern recognition.**
+**That's the power of pattern recognition over 19 days.**
 
 ---
 
@@ -556,9 +430,9 @@ For each code snippet, name the pattern.
 - **Day 3:** "I understand configuration!"
 - **Day 6:** "I can write validation!"
 - **Day 9:** "I can transform lists!"
-- **Day 13:** "I can set up complex systems!"
-- **Day 17:** "I recognize all patterns!"
+- **Day 12:** "I understand error handling!"
+- **Day 15:** "I can set up complex systems!"
+- **Day 17:** "I recognize all 10 patterns!"
 - **Day 19:** "I'm ready for Bell!"
 
 **You got this.** 🚀
-
