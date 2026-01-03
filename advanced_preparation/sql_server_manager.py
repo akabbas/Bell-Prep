@@ -476,3 +476,4 @@ def create_connection_manager(
     
     return SQLServerConnectionManager(config, logger)
 
+

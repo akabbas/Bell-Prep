@@ -557,3 +557,4 @@ class ITARAuditReporter:
             self.logger.error(f"Failed to get high-risk suppliers: {e}")
             return []
 
+

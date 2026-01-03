@@ -1,17 +1,36 @@
 # Bell Textron Procurement Automation System
 
+## 🚀 QUICK START - Getting Ready for Bell
+
+**YOUR MISSION:** Master this project to be ready for Day 1 at Bell Textron (January 12, 2026)
+
+### ⭐ Most Important Files (START HERE)
+
+| Priority | File | Purpose | Time |
+|----------|------|---------|------|
+| 🔴 #1 | **PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md** | Learn & apply coding patterns | 8-10 hrs |
+| 🟠 #2 | **procurement_automation.py** | Real Bell Textron code | 20 min |
+| 🟡 #3 | **PATTERNS_STUDY_KIT/00_START_HERE.md** | Study roadmap | 10 min |
+| 🟢 #4 | **ENVIRONMENT_AT_BELL.md** | How Bell's systems work | 20 min |
+
+---
+
 ## 📚 Documentation Guide
 
 **Start here based on your needs:**
 
-| Your Question | Read This | Time |
-|---|---|---|
-| "What is this project?" | **README.md** (this file) | 10 min |
-| "How does this prepare me for Bell?" | **ENVIRONMENT_AT_BELL.md** | 20 min |
-| "How do I use the terminal?" | **TERMINAL_COMMANDS_GUIDE.md** | 20 min |
-| "What should I see when I run this?" | **TERMINAL_VISUAL_EXAMPLES.md** | 15 min |
-| "What's the quick command?" | **TERMINAL_CHEAT_SHEET.sh** | 2 min |
-| "How is it built?" | **ENVIRONMENT_IMPLEMENTATION_SUMMARY.md** | 15 min |
+| Your Question | Read This | Time | Priority |
+|---|---|---|---|
+| "How do I understand the coding patterns?" | **PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md** | 8-10 hrs | 🔴 FIRST |
+| "I need a study roadmap" | **PATTERNS_STUDY_KIT/00_START_HERE.md** | 10 min | 🟠 Early |
+| "What is this project?" | **README.md** (this file) | 10 min | 🟡 Soon |
+| "How does this prepare me for Bell?" | **ENVIRONMENT_AT_BELL.md** | 20 min | 🟢 Week 1 |
+| "How do I use the terminal?" | **TERMINAL_COMMANDS_GUIDE.md** | 20 min | 🟢 Week 1 |
+| "What should I see when I run this?" | **TERMINAL_VISUAL_EXAMPLES.md** | 15 min | 🟡 Soon |
+| "What's the quick command?" | **TERMINAL_CHEAT_SHEET.sh** | 2 min | 🟢 Reference |
+| "How is it built?" | **ENVIRONMENT_IMPLEMENTATION_SUMMARY.md** | 15 min | 🟢 Advanced |
+| "I want quick pattern reference" | **PATTERNS_STUDY_KIT/PATTERNS_QUICK_REFERENCE.md** | 5 min | 🟢 Reference |
+| "I need practice exercises" | **PATTERNS_STUDY_KIT/PATTERNS_PRACTICE_WORKBOOK.md** | Variable | 🟡 After learning |
 
 ---
 
@@ -822,4 +841,3 @@ Internal - Bell Textron Proprietary
 
 **Bell Textron Procurement Systems Team**  
 For questions or issues, contact your Business Systems Analyst.
-
