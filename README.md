@@ -1,37 +1,150 @@
-# Bell Textron Procurement Automation - Your Prep Guide
-
-**Real code. Real concepts. Real job preparation.**
-
----
-
-## 📍 START HERE
-
-| What | Where | Time | Why |
-|------|-------|------|-----|
-| **Learn patterns** | `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` | 8-10 hrs | Core technical skill |
-| **Understand the job** | `JOB_DESCRIPTION.md` | 15 min | Know what you'll do |
-| **Terminal commands** | `TERMINAL_COMMANDS_GUIDE.md` | 1-2 hrs | Daily work tool |
-| **Real code** | `procurement_automation.py` | Reference | See patterns in action |
-| **Study roadmap** | `PATTERNS_STUDY_KIT/00_START_HERE.md` | 10 min | How to use everything |
+# 🚀 Bell Textron Preparation & Simulation
+**Real code. Real concepts. Ready for Day 1: January 12, 2026**
 
 ---
 
-## 🎯 Your Job: 50/50 Tech & Business
+## ⚡ START HERE (3 Files, 30 Minutes)
 
-### Technical Half (What We Cover Here)
-- **10 coding patterns** - real Bell code uses these
-- **Python fundamentals** - loops, functions, error handling
-- **API integration** - how systems talk to each other
-- **Database operations** - storing supplier data
-- **Environment management** - dev/test/prod systems
+These are your **only** files for getting started:
 
-### Business Half (What You'll See Day 1)
-- **Procurement process** - how Bell buys from suppliers
-- **Compliance requirements** - ITAR (export control), AS9100 (quality)
-- **Risk assessment** - which suppliers matter most
-- **Audit trails** - proving what happened when
-- **DUNS validation** - supplier identification
-- **Performance scoring** - which suppliers perform best
+1. **`00_START_HERE.md`** - Read first (5 min)
+   - Understand what you have
+   - Quick overview of everything
+
+2. **`JOB_DESCRIPTION.md`** - Know your job (10 min)
+   - Official Bell Textron requirements
+   - Daily responsibilities
+   - Technical skills needed
+
+3. **`QUICK_REFERENCE.md`** - Key facts checklist (5 min)
+   - Your job in one sentence
+   - Top 8 weekly tasks
+   - Ready-for-Bell checklist
+
+**After 30 minutes: You'll know what you need to do.**
+
+---
+
+## 📚 YOUR STUDY MATERIALS (The Core)
+
+### Phase 1: Coding Patterns (8-10 hours)
+**File:** `PATTERNS_STUDY_KIT/00_START_HERE.md`
+- Learn the 10 patterns used at Bell
+- Study real code from `procurement_automation.py`
+- Practice with exercises
+- Master foundational technical skills
+
+### Phase 2: Preparation Roadmap (Flexible pacing)
+**File:** `PREPARATION_CHECKLIST.md`
+- Day-by-day or phase-by-phase guidance
+- Specific tasks for each section
+- Track your progress
+- Work at your own speed
+
+### Phase 3: Job Mapping (Understand connections)
+**File:** `PREPARATION_MAP.md`
+- Maps job requirements to practice tasks
+- Bridges what you'll do → how to prepare
+- Success metrics for each skill
+
+### Phase 4: Deep Dive Guide (5 phases of learning)
+**File:** `COMPLETE_BELL_PREP_GUIDE.md`
+- Defense industry fundamentals
+- Procurement basics
+- Python & patterns
+- Tools & terminal
+- Integration & real scenarios
+
+---
+
+## 💻 THE REAL CODE
+
+**`procurement_automation.py`** (1,300+ lines)
+- Production-grade procurement automation system
+- Shows all 10 coding patterns in action
+- Real examples of what you'll build at Bell
+- Study this alongside the patterns guide
+
+---
+
+## 📂 PROJECT STRUCTURE
+
+```
+Bell Prep/
+├── 🎯 ESSENTIAL (YOUR FOCUS)
+│   ├── 00_START_HERE.md              ← Start here
+│   ├── JOB_DESCRIPTION.md            ← Know your job
+│   ├── QUICK_REFERENCE.md            ← Key facts
+│   ├── PREPARATION_CHECKLIST.md      ← Your roadmap
+│   ├── PREPARATION_MAP.md            ← Job → Tasks
+│   ├── COMPLETE_BELL_PREP_GUIDE.md   ← Deep learning
+│   ├── procurement_automation.py     ← Real code
+│   └── PATTERNS_STUDY_KIT/           ← Coding patterns
+│       ├── 00_START_HERE.md
+│       ├── PATTERNS_UNDERSTANDING_PRACTICE.md (MAIN)
+│       ├── CODING_PATTERNS_GUIDE.md
+│       ├── PATTERNS_QUICK_REFERENCE.md
+│       ├── PATTERNS_PRACTICE_WORKBOOK.md
+│       └── ... (9 more pattern files)
+│
+├── 📚 REFERENCE (Use as needed)
+│   └── _reference/
+│       ├── INDEX.md
+│       ├── PROJECT_STATUS.md
+│       ├── README_FULL.md
+│       ├── ENVIRONMENT_AT_BELL.md
+│       ├── ENVIRONMENT_IMPLEMENTATION_SUMMARY.md
+│       ├── TERMINAL_VISUAL_EXAMPLES.md
+│       └── ... (more deep dives)
+│
+├── 🔧 UTILITIES (Advanced exploration)
+│   └── _utilities/
+│       ├── environment_cli.py
+│       ├── environment_config.py
+│       ├── environment_health_check.py
+│       ├── config.ini
+│       └── ... (scripts & configs)
+│
+├── 🎓 ADVANCED LEARNING (After basics)
+│   └── _advanced_learning/
+│       ├── requirements.txt
+│       ├── advanced_preparation/
+│       │   ├── sql_server_manager.py
+│       │   ├── itar_audit_reporter.py
+│       │   ├── error_recovery_patterns.py
+│       │   ├── validation_rules_engine.py
+│       │   └── examples/
+│       └── ... (enterprise patterns)
+│
+├── 📊 DATA & LOGS
+│   ├── data/
+│   │   └── bell_procurement_dev.db
+│   └── logs/
+│       └── bell_procurement_dev.log
+│
+└── 🔐 ARCHIVED (Recovery available)
+    └── .archive/
+        └── (Redundant documentation)
+```
+
+---
+
+## 🎯 YOUR PREPARATION PATH
+
+### Week 1: Technical Foundation
+- [ ] Read: `00_START_HERE.md`, `JOB_DESCRIPTION.md`, `QUICK_REFERENCE.md`
+- [ ] Study: `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md`
+- [ ] Practice: Pattern exercises (in study kit)
+
+### Week 2: Depth & Systems
+- [ ] Complete: `PREPARATION_CHECKLIST.md` sections
+- [ ] Understand: `PREPARATION_MAP.md` mappings
+- [ ] Deep dive: `COMPLETE_BELL_PREP_GUIDE.md` phases
+
+### Week 3: Ready for Bell
+- [ ] Review: `QUICK_REFERENCE.md` readiness checklist
+- [ ] Reference: `_reference/` for any final questions
+- [ ] Confident: You're ready for Day 1
 
 ---
 
@@ -39,92 +152,112 @@
 
 ```bash
 cd "/Users/ammrabbasher/Bell Prep"
+
+# Optional: Set up Python environment
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r _advanced_learning/requirements.txt
+
+# Run the simulation
+python procurement_automation.py dev _utilities/config.ini
 ```
 
 ---
 
-## 📚 What This Project Is
+## 🎓 What You'll Learn
 
-A **realistic simulation** of Bell Textron's procurement automation system:
-- Downloads supplier data from API (simulated)
-- Cleans and validates it
-- Stores it in database
-- Tracks compliance and audit trails
-- Flags high-risk suppliers
+### Technical Skills (50%)
+- ✅ 10 coding patterns (real, production code)
+- ✅ Python fundamentals (loops, functions, error handling)
+- ✅ API integration concepts
+- ✅ Database operations
+- ✅ Environment management (dev/test/prod)
 
-**This is production code.** Not a tutorial. You'll see patterns here that you'll use on Day 1.
-
----
-
-## 🎓 Study Path (Your Focus)
-
-**Week 1:** Learn the 10 patterns using `PATTERNS_UNDERSTANDING_PRACTICE.md`
-- Pattern 1-5: Foundation (1.5 hrs each)
-- Pattern 6-10: Reference (1 hr combined)
-
-**Week 2:** Practice & apply
-- Terminal commands
-- Run the code yourself
-- See output and understand flow
-
-**Week 3:** Business context
-- Read procurement concepts in comments
-- Understand why each step matters
-- Know what you'll discuss on Day 1
+### Business Knowledge (50%)
+- ✅ Procurement workflows
+- ✅ Supplier data validation
+- ✅ ITAR compliance basics
+- ✅ Risk assessment & scoring
+- ✅ Audit trails & compliance tracking
 
 ---
 
-## 🔑 Core Concepts You'll Use
+## 📍 WHERE TO FIND THINGS
 
-**Configuration Reading** - How systems know where to connect  
-**Validation** - Making sure data is correct  
-**Loop & Transform** - Processing many items at once  
-**Error Handling** - What happens when things break  
-**Create/Configure/Return** - Building objects properly  
-
-Plus 5 more patterns in the same code.
-
----
-
-## 💼 Business Concepts in the Code
-
-**DUNS Number** - Unique supplier identifier (you'll validate these)  
-**ITAR** - Export control rules (you'll check compliance)  
-**AS9100** - Aerospace quality standard (defense requirement)  
-**Risk Scoring** - Which suppliers need attention  
-**Performance Score** - How well suppliers perform  
+| I Want To | Go To |
+|-----------|-------|
+| **Start preparing** | `00_START_HERE.md` |
+| **Know my job** | `JOB_DESCRIPTION.md` |
+| **Get quick facts** | `QUICK_REFERENCE.md` |
+| **See my roadmap** | `PREPARATION_CHECKLIST.md` |
+| **Learn patterns** | `PATTERNS_STUDY_KIT/00_START_HERE.md` |
+| **Study patterns deeply** | `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` |
+| **See real code** | `procurement_automation.py` |
+| **Deep dive on concepts** | `COMPLETE_BELL_PREP_GUIDE.md` |
+| **Reference materials** | `_reference/` folder |
+| **Advanced topics** | `_advanced_learning/` folder |
 
 ---
 
-## 📖 Files You Actually Need
+## ✨ Design Philosophy
 
-- `PATTERNS_STUDY_KIT/PATTERNS_UNDERSTANDING_PRACTICE.md` - How to learn (CORE)
-- `procurement_automation.py` - The real code (REFERENCE)
-- `JOB_DESCRIPTION.md` - What the job is (CONTEXT)
-- `TERMINAL_COMMANDS_GUIDE.md` - How to work (ESSENTIAL)
-- `PATTERNS_STUDY_KIT/00_START_HERE.md` - Study plan (GUIDE)
-- `QUICK_REFERENCE.md` - Fast lookups (REFERENCE)
+This project is **intentionally organized for focus**:
 
----
-
-## ▶️ Run It
-
-```bash
-# Development environment (default)
-python procurement_automation.py dev config.ini
-
-# Expected output: Suppliers imported/updated with audit trail
-```
+✅ **Essential files visible** - No searching for what matters  
+✅ **Supporting files grouped** - Organized but not cluttering  
+✅ **Clear progression** - Know exactly what to study when  
+✅ **Real code focus** - Learn from production patterns  
+✅ **No fluff** - Every file has a purpose  
 
 ---
 
 ## 🎯 Your Goal
 
-**Master the patterns** → **Understand the business** → **Be ready Day 1**
+**Master the patterns → Understand the business → Be ready Day 1**
 
-Everything in this project teaches you those three things.
+Everything in this project teaches you those three things in that order.
 
-No fluff. Just what you need.
+---
+
+## 📅 Timeline
+
+```
+TODAY (Now)
+  ↓
+Read: 00_START_HERE.md (5 min)
+  ↓
+Read: JOB_DESCRIPTION.md (10 min)
+  ↓
+Read: QUICK_REFERENCE.md (5 min)
+  ↓
+START LEARNING (Whenever you're ready)
+  ↓
+Follow: PREPARATION_CHECKLIST.md (Your pace)
+  ↓
+Study: PATTERNS_STUDY_KIT/ (8-10 hours)
+  ↓
+January 11 (Night before)
+  ↓
+READY ✅
+  ↓
+January 12: Bell Day 1 🚀
+```
+
+---
+
+## 🚀 Next Step
+
+**Open:** `00_START_HERE.md`
+
+**Read:** First 5 minutes  
+
+**Then:** Follow the path that file describes
+
+You've got this. 💪
+
+---
+
+*Project Version: 2.1.0*  
+*Status: ✅ ORGANIZED & READY*  
+*Last Updated: January 3, 2026*  
+*Days Until Bell: 9 days*
