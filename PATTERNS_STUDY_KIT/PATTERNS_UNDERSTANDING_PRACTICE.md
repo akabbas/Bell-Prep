@@ -524,6 +524,25 @@ Manager: "Import 250 suppliers from Ariba. Clean each one. Report how many succe
 
 ---
 
+## 🎯 PRACTICE VARIATIONS
+
+**Ready to master Pattern 3?** See [`PATTERN_3_PRACTICE_VARIATIONS.md`](PATTERN_3_PRACTICE_VARIATIONS.md)
+
+This file has 5 progressively harder variations you can solve:
+1. Extract single field (names)
+2. Transform field (uppercase)
+3. Extract multiple fields (tuples)
+4. Filter and transform (high-risk only)
+5. Complex transform (format for report)
+
+**How to use it:**
+- Write both Method 1 (loop) and Method 2 (comprehension) for each
+- Test your code by running it
+- Compare results between methods
+- You'll know you've mastered it when all 5 work perfectly
+
+---
+
 # PATTERN 4: ERROR HANDLING (TRY/EXCEPT)
 
 ## UNDERSTAND IT
