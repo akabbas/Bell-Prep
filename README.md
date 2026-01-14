@@ -3,7 +3,7 @@
 
 ---
 
-## ⚡ START HERE (3 Files, 30 Minutes)
+## ⚡ START HERE (4 Files, 45 Minutes)
 
 These are your **only** files for getting started:
 
@@ -16,12 +16,17 @@ These are your **only** files for getting started:
    - Daily responsibilities
    - Technical skills needed
 
-3. **[`QUICK_REFERENCE.md`](QUICK_REFERENCE.md)** - Key facts checklist (5 min)
+3. **[`CAREER_PIPELINE.md`](CAREER_PIPELINE.md)** - Your career roadmap (15 min)
+   - 5-year professional progression plan
+   - Realistic salary expectations
+   - Job title advancement timeline
+
+4. **[`QUICK_REFERENCE.md`](QUICK_REFERENCE.md)** - Key facts checklist (5 min)
    - Your job in one sentence
    - Top 8 weekly tasks
    - Ready-for-Bell checklist
 
-**After 30 minutes: You'll know what you need to do.**
+**After 45 minutes: You'll know what you need to do and where you're going.**
 
 ---
 

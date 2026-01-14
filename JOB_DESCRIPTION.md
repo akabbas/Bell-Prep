@@ -3,7 +3,7 @@
 **Position:** Business Systems Analyst  
 **Company:** Bell Textron Inc.  
 **Location:** Fort Worth, TX  
-**Salary Range:** $69K - $92K (Glassdoor est.)  
+**Salary:** $98K  
 **Job Number:** 337558  
 **Posted:** November 6, 2025  
 **Schedule:** Full-time, First Shift  
@@ -117,7 +117,7 @@ Bring your skills and experience as a Business Systems Analyst to join our team 
 - On-site clinic, pharmacy, physical therapy
 - Licensed counselor access
 - Tuition reimbursement
-- Competitive salary ($69K - $92K)
+- Competitive salary ($98K)
 
 ### Culture & Community
 - Access to 11+ Employee Resource Groups
