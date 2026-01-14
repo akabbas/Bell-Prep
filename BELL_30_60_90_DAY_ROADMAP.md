@@ -147,62 +147,149 @@
 
 ## 📊 DAYS 31-60: BUILDING COMPETENCE & CAPABILITY
 
-**Overall Goal:** Develop functional competency in Ariba and Python automation
+**Overall Goal:** Begin contributing independently, modify code, resolve majority of L1 and some L2 tasks
+
+**Level:** INTERMEDIATE
 
 ---
 
-### Phase 2.1: Ariba Advanced Topics
+### Phase 2.1: Admin Skill Development
 
-**Deep Dive Into:**
-- [ ] Advanced template configuration
-- [ ] Complex workflow logic
-- [ ] Multi-step approval processes
-- [ ] Supplier collaboration scenarios
-- [ ] Event management best practices
+**User & Group Management:**
+- [ ] Manage users (create, modify, deactivate accounts)
+- [ ] Manage groups and group assignments
+- [ ] Configure approvals and approval workflows
+- [ ] Manage commodity assignments
+- [ ] Handle access requests
 
-**Hands-On Practice:**
-- [ ] Create templates (test realm)
-- [ ] Build workflows (test realm)
-- [ ] Configure supplier access
-- [ ] Test complex scenarios
+**Template & Event Understanding:**
+- [ ] Understand template behavior (how templates work, when they're used)
+- [ ] Learn events (sourcing events, types, lifecycle, statuses)
+- [ ] Understand sourcing concepts (RFQ, RFP, auctions, etc.)
+- [ ] Master supplier profiles (structure, fields, updates)
+- [ ] Connect templates to real business processes
+
+**Migration Skills:**
+- [ ] Learn migration steps from test to production
+- [ ] Understand what can/cannot be migrated
+- [ ] Know approval process for migrations
+- [ ] Understand rollback procedures
+- [ ] Practice migrations (with oversight first)
+
+**Checklist:**
+- [ ] Can create a new user
+- [ ] Can assign user to group
+- [ ] Can explain a template
+- [ ] Can describe an event
+- [ ] Can perform a test-to-prod migration (with supervision)
 
 ---
 
-### Phase 2.2: Automation Development
+### Phase 2.2: Academy Progression
 
-**Build Real Automation:**
-- [ ] Write Python scripts that interact with Ariba APIs
-- [ ] Implement data validation
-- [ ] Handle error scenarios
-- [ ] Optimize performance
-- [ ] Add proper logging
+**SAP Training Academy:**
+- [ ] Start at least one lesson
+- [ ] Complete at least one lesson
+- [ ] Document what you learned
+- [ ] Plan remaining courses
+
+**Databricks Training Academy:**
+- [ ] Start at least one lesson
+- [ ] Complete at least one lesson
+- [ ] Document what you learned
+- [ ] Plan remaining courses
+
+**Self-Development:**
+- [ ] Plan out complete training path
+- [ ] Identify courses relevant to your role
+- [ ] Schedule time for training
+- [ ] Track completion
+
+**Completed Courses:**
+| Academy | Course Name | Completed | Date |
+|---|---|---|---|
+| SAP | | | |
+| Databricks | | | |
+
+---
+
+### Phase 2.3: Python & Automation Contributions
+
+**API Work:**
+- [ ] Write or extend endpoint wrappers
+- [ ] Understand Ariba API structure
+- [ ] Learn how to make API calls
+- [ ] Handle API responses properly
+
+**ETL Script Development:**
+- [ ] Build new extraction scripts
+- [ ] Write transform logic
+- [ ] Create load procedures
+- [ ] Extract supplier data
+- [ ] Extract sourcing data
+- [ ] Get data pipeline working end-to-end
+
+**Code Quality:**
+- [ ] Add error handling (try/except)
+- [ ] Add comprehensive logging
+- [ ] Add job completion tracking
+- [ ] Test thoroughly in test realm
+- [ ] Handle edge cases
+
+**Deployment:**
+- [ ] Deploy changes via ADO pipeline
+- [ ] Validate results after deployment
+- [ ] Monitor for issues
+- [ ] Be ready to rollback if needed
 
 **Deliverables by Day 60:**
 - [ ] 2-3 working automation scripts
-- [ ] Proper error handling
+- [ ] Proper error handling on all scripts
+- [ ] Comprehensive logging
+- [ ] Job completion tracking
+- [ ] Successfully deployed to test realm
 - [ ] Documentation for each script
-- [ ] Test results showing success
+
+**Scripts Completed:**
+| Script Name | Type | Status | Deployed? | Notes |
+|---|---|---|---|---|
+| | ETL/Wrapper/Other | | | |
+| | ETL/Wrapper/Other | | | |
+| | ETL/Wrapper/Other | | | |
 
 ---
 
-### Phase 2.3: System Administration
+### Phase 2.4: Ticket Handling & Support
 
-**Become an Admin:**
-- [ ] User management (create, modify, deactivate)
-- [ ] Role assignment and permissions
-- [ ] Access control management
-- [ ] System configuration
-- [ ] Troubleshooting common issues
+**L1 Ticket Resolution (Common Issues):**
+- [ ] Resolve common user issues independently
+- [ ] Troubleshoot missing data (where did it go? why?)
+- [ ] Handle access issues (user can't access what they need)
+- [ ] Troubleshoot workflow routing problems (task went to wrong person)
+- [ ] Provide clear solutions
+
+**L2 Ticket Identification:**
+- [ ] Identify configuration issues requiring L2 support
+- [ ] Know when to escalate vs solve
+- [ ] Document escalations properly
+- [ ] Learn from L2 solutions
 
 **Support Skills:**
-- [ ] Handle basic user tickets independently
-- [ ] Troubleshoot template issues
-- [ ] Debug workflow problems
+- [ ] Handle tickets professionally
+- [ ] Communicate clearly with users
 - [ ] Document solutions
+- [ ] Know what you don't know and ask
+
+**Ticket Stats by Day 60:**
+| Metric | Target | Actual |
+|---|---|---|
+| L1 tickets resolved independently | 80% | |
+| Common issue types handled | 5+ | |
+| L2 escalations made (proper) | 2-3 | |
 
 ---
 
-### Phase 2.4: Production Readiness
+### Phase 2.5: Production Readiness
 
 **Learn Production Practices:**
 - [ ] Understand change control process
