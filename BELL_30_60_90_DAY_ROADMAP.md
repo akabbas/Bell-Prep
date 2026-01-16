@@ -12,6 +12,10 @@
 
 **Overall Goal:** Build foundational understanding of SAP Ariba, Strategic Sourcing, Internal Processes & Automation
 
+**🔴 TEAM LEAD PRIORITY (Days 1-30):** Priority 1 - Data Extraction Foundation  
+📌 **Focus:** Master data extraction concepts from Ariba (APIs, data structures, Python scripts)  
+**Deliverable by Day 30:** Working extraction script that can pull supplier data from test realm
+
 ---
 
 ### Phase 1.1: Ariba Fundamentals
@@ -150,6 +154,11 @@
 **Overall Goal:** Begin contributing independently, modify code, resolve majority of L1 and some L2 tasks
 
 **Level:** INTERMEDIATE
+
+**🔴 TEAM LEAD PRIORITIES (Days 31-60):** Priority 2 + Priority 3  
+📌 **Priority 2 - Technical Solutions:** Build 2 working solutions for Ariba/Bell problems  
+📌 **Priority 3 - Technical Documentation:** Document your extraction scripts and solutions  
+**Deliverables by Day 60:** 2 working solutions + complete documentation for both
 
 ---
 
@@ -309,6 +318,12 @@
 ## 🚀 DAYS 61-90: OWNERSHIP & INDEPENDENCE
 
 **Overall Goal:** Become a fully capable Ariba Admin + Automation Developer able to own processes end-to-end
+
+**🔴 TEAM LEAD PRIORITIES (Days 61-90):** All Three at Expert Level  
+📌 **Priority 1 - Data Extraction:** Own extraction processes, improve performance, mentor others  
+📌 **Priority 2 - Technical Solutions:** Deploy solutions to production, monitor, improve  
+📌 **Priority 3 - Technical Documentation:** Maintain and update all documentation, help team use solutions  
+**Deliverables by Day 90:** Production-ready solutions owned and maintained by you
 
 ---
 
